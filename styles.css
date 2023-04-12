@@ -1,0 +1,1168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.795);
+  align-self: center;
+  margin-bottom: -4%;
+  width: 100%;
+}
+
+body {
+  background-image: url(./img/portada-zapatillas/portada.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/********************************************************mobile ****************************************************/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /************************************************ Seccion Portada ************************************************/
+  .header-titulo {
+    color: rgb(218, 173, 62);
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: 15px;
+    align-self: center;
+    font-size: 20px;
+  }
+  .header-form {
+    display: none;
+  }
+  .nav-div {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0px;
+    align-self: center;
+    text-align: center;
+    font-weight: 800px;
+    font-size: 20px;
+  }
+  li:hover {
+    color: blue;
+  }
+  .nosotros {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mujer {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hombre {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .niños {
+    grid-column: 1;
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .novedades {
+    position: absolute;
+    align-self: center;
+    font-size: 30px;
+    color: rgba(240, 248, 255, 0.603);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 120%;
+    text-transform: uppercase;
+  }
+}
+
+/************************************************** primer articulo********************************************/
+
+.articulo {
+  position: absolute;
+  align-self: center;
+  margin-top: 20%;
+  flex-direction: column;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+.boton {
+  position: sticky;
+  bottom: 4em;
+  right: 4em;
+  background-color: #99a33f3f;
+  border-radius: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+
+.textoimg-1 {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.foto-1-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.479);
+}
+
+/****************************************************** segundo articulo **************************************/
+
+.articulo2 {
+  position: absolute;
+  align-self: center;
+  margin-top: 140%;
+  flex-direction: column;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+
+.texto-nuevos-modelos {
+  position: static;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.texto2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 252, 252, 0.753);
+  margin-top: 480px;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.sombreros1 {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+
+.sombreros {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 30px;
+  padding: 60px;
+}
+
+.carteras1 {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+
+.carteras {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 30px;
+  padding: 60px;
+  margin-top: 380px;
+}
+.zapatillas1 {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+
+.zapatillas {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.616);
+  font-size: 30px;
+  padding: 60px;
+  margin-top: 750px;
+}
+
+.articulo2 {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 740%;
+}
+
+.columna {
+  float: inline-start;
+  width: 95%;
+  padding-right: 10px;
+  padding-left: 32px;
+  margin-top: 0px;
+}
+.columna2 {
+  float: inline-start;
+  width: 95%;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+.columna3 {
+  float: inline-start;
+  width: 95%;
+  padding-right: 9px;
+  padding-left: 30px;
+}
+
+/*********************************************** responsive **************************************************/
+img {
+  width: 100%;
+}
+
+  /* **********************************************footer ****************************************************/ 
+.contacto-footer  {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #f5f5f5;
+  bottom: -1800px !important;
+  
+
+}
+
+.footer {
+  height: 380px;
+  line-height: 50px;
+  background: rgba(31, 20, 20, 0.973);
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #141313;
+
+ 
+}
+.relleno-footer a{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: aliceblue;
+  font-weight: 600;
+  
+  
+  
+  
+}
+.mapa{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 150px;
+ padding: 20px;
+ margin-top: -160px;
+}
+h3{
+  font-size: 40px;
+  padding: 2rem;
+  
+
+}
+h4{
+  color: darkorange;
+  font-weight: 600;
+  margin-top: -250px;
+}
+.datos{
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.datos-mail{
+margin-top: -30px;
+
+}
+
+  .domicilio{
+    margin-top: -80px;
+  margin-left: 0px;
+  }
+
+/* ****************************************************Seccion Hombre ********************************************/ 
+
+.body-hombre {
+  background-image: url(./img/hombre/foto-portada-h.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-hombre {
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+.Cristopherlucky {
+  color: darkgoldenrod;
+  margin-top: 20%;
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+  width: 100%;
+}
+.hombre-form {
+  display: none;
+}
+.list-nav-hombre li {
+  margin-top: 50%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  align-self: center;
+  font-size: 30px;
+}
+.title-hombre {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50%;
+  font-family: monospace;
+  font-size: 100px;
+  color: rgba(240, 248, 255, 0.212);
+}
+.contenedor-img-hombre {
+  margin-top: 90px;
+  padding: 10px;
+  gap: 20px;
+}
+.conjuntos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+}
+.foto1-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.remeras-oversive {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 37px;
+  padding:0;
+  margin-top: 1800px;
+  width: 100%;
+}
+
+.foto2-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.conjuntos-fotos {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 2350px;
+  width: 100%;
+  text-align: center;
+}
+.foto3-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.sweaters {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 2930px;
+  width: 100%;
+  text-align: center;
+}
+
+.foto4-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.camperas {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 3480px;
+  width: 100%;
+  text-align: center;
+}
+
+.foto5-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.buzos {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 4060px;
+  width: 100%;
+  text-align: center;
+}
+.foto6-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.gorras {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 4600px;
+  width: 100%;
+  text-align: center;
+}
+.foto7-hombre {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.zapatillas-hombre {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 5240px;
+  width: 100%;
+  text-align: center;
+}
+/********************************************** Footer Hombre ********************************************/
+.contacto-footer-hombre  {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #f5f5f5;
+  bottom: -5200px !important;
+  
+
+}
+
+.footer-hombre {
+  height: 380px;
+  line-height: 50px;
+  background: rgba(31, 20, 20, 0.973);
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: -120px;
+  left: 0px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #141313;
+
+ 
+}
+.relleno-footer-hombre a{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: aliceblue;
+  font-weight: 600;
+  
+  
+  
+  
+}
+.mapa-hombre {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 150px;
+ padding: 20px;
+ margin-top: -160px;
+}
+.h3-hombre{
+  font-size: 40px;
+  padding: 2rem;
+  
+
+}
+.h4-hombre{
+  color: darkorange;
+  font-weight: 600;
+  margin-top: -250px;
+}
+.datos-hombre{
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.datos-mail-hombre{
+margin-top: -30px;
+
+}
+
+  .domicilio-hombre{
+    margin-top: -80px;
+  margin-left: 0px;
+  }
+
+/********************************************************Escritorio  ************************************************/
+
+@media only screen and (min-width: 1200px) {
+
+  /****************************************************Seccion Portada  ***********************************************/
+  .header-titulo {
+    color: darkgoldenrod;
+    margin-top: 15%;
+    margin-left: 28%;
+    font-size: 30px;
+    position: absolute;
+  }
+  .header-form {
+    margin-top: 15%;
+    margin-left: 45%;
+    font-size: 10px;
+    position: absolute;
+  }
+  .nav-div {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    font-weight: 900;
+  }
+  a{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .nosotros {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mujer {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hombre {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .niños {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .novedades {
+    position: absolute;
+    align-self: center;
+    font-size: 60px;
+    color: rgba(240, 248, 255, 0.603);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70%;
+    text-transform: uppercase;
+  }
+  .articulo {
+    position: absolute;
+    align-self: center;
+    margin-top: 60%;
+    flex-direction: column;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+  }
+  .boton {
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
+    background-color: #99a33f3f;
+    border-radius: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+  }
+
+  .textoimg-1 {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .foto-1-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 80px;
+  }
+  .texto-nuevos-modelos {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .texto2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(243, 241, 241, 0.616);
+    margin-top: 1300px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .sombreros1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sombreros {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 30px;
+    padding: 60px;
+  }
+
+  .carteras1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .carteras {
+    position: absolute;
+    top: 0%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 30px;
+    padding: 60px;
+    margin-top: 382px;
+  }
+  .zapatillas1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .zapatillas {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 30px;
+    padding: 60px;
+    margin-top: 380px;
+  }
+  .lista-footer a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  /*********************************************** *******segundo articulo *****************************************/
+  
+  .articulo2 {
+    box-sizing: border-box;
+    display: inline;
+    margin-top: 340%;
+  }
+
+  .columna {
+    float: inline-start;
+    width: 33%;
+    padding-right: 10px;
+    padding-left: 36px;
+    display: block;
+  }
+  .columna2 {
+    float: inline-start;
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  .columna3 {
+    float: inline-start;
+    width: 33%;
+    padding-right: 9px;
+    padding-left: 30px;
+  }
+  img {
+    width: 100%;
+  }
+
+/********************************************************* Footer  **************************************************/
+ 
+.contacto-footer  {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -2500px !important;
+    width: 100%;
+    
+  
+  }
+  
+  .footer {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  
+   
+  }
+  .relleno-footer a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 10px;
+    
+    
+    
+    
+  }
+  .mapa{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left:30px;
+    
+   
+  }
+  h3{
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  h4{
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .datos{
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+    
+  }
+  .datos-mail{
+  margin-top: -30px;
+  margin-left: -40px;
+ 
+  
+  }
+  .domicilio{
+    margin-top: -30px;
+  margin-left: -140px;
+  }
+
+  /******************************************************seccion hombre **********************************************/
+  
+  .header-hombre h1 {
+    color: darkgoldenrod;
+    margin-top: 15%;
+    margin-left: 0%;
+    font-size: 100px;
+  }
+  .hombre-form {
+    margin-top: 10%;
+    margin-left: 32%;
+    font-size: 20px;
+    position: absolute;
+  }
+  .hombre-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 42%;
+  }
+
+  .nav-hombre li {
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 8%;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+  }
+  .nosotros-hombre {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mujer-hombre {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hombre-hombre {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .niños-hombre {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contenedor-img-hombre {
+    display: grid;
+    grid-auto-rows: 800px;
+    gap: 3rem;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .foto-2-texto {
+    position: relative;
+    display: flex;
+    text-align: center;
+  }
+  .texto2 a {
+    position: relative;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.603);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foto1-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .remeras-oversive {
+    position: absolute;
+    top: 0%;
+    left: 12.9%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 2000px;
+    display: flex;
+   
+  }
+
+  .foto2-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+    width: 102%;
+  }
+  .conjuntos-fotos {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    padding: 5px;
+    margin-top: 2000px;
+    
+  }
+  .foto3-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .sweaters {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    padding: 5px;
+    margin-top: 2000px;
+    
+    display: flex;
+  }
+
+  .foto4-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .camperas {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2880px;
+    
+    display: flex;
+  }
+
+  .foto5-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .buzos {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2880px;
+    
+  }
+  .foto6-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+    width: 97%;
+  }
+  .gorras {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2880px;
+    
+    display: flex;
+  }
+  .foto7-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .zapatillas-hombre {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 3730px;
+    
+}
+
+/*****************************************************Footer Hombre *****************************************/
+.contacto-footer-hombre  {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -3400px !important;
+    
+    
+    
+  
+  }
+  
+  .footer-hombre {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -90px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  
+   
+  }
+  .relleno-footer-hombre a{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: start;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 20px;
+    
+    
+    
+    
+  }
+  .mapa-hombre{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left:50px;
+    
+    
+   
+  }
+  .h3-hombre{
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .h4-hombre{
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right:40px;
+  }
+  .datos-hombre{
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+    
+  }
+  .datos-mail-hombre{
+  margin-top: -30px;
+  margin-left: -40px;
+ 
+  
+  }
+  .domicilio-hombre{
+    margin-top: -80px;
+  margin-left: -140px;
+  }
+}
