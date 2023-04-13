@@ -582,6 +582,146 @@ color: #f5f5f5;
   margin-left: 0px;
   }
 
+  /***************************************************** MUJER  ******************************************************/
+  .body-mujer {
+    background-image: url(./img/mujer/mujeres-jean.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: size 100%;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    
+    
+  
+   
+  }
+  .header-mujer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 20%;
+    font-size: 60px;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  .mujer-form {
+    display: none;
+  }
+  .list-nav-mujer li {
+    margin-top: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: monospace;
+    font-size: 100px;
+    color: rgba(240, 248, 255, 0.212);
+  }
+  .contenedor-img-mujer {
+    margin-top: 90px;
+    padding: 10px;
+    gap: 20px;
+  }
+  .conjuntos-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .foto1-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .remeras-oversive-mujer {
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 37px;
+    padding:0;
+    margin-top: 1800px;
+    width: 100%;
+  }
+  
+  .foto2-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .conjuntos-fotos-mujer {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2350px;
+    width: 100%;
+    text-align: center;
+  }
+  .foto3-mujer{
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .sweaters-mujer {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2930px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .foto4-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .camperas-mujer {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 3480px;
+    width: 100%;
+    text-align: center;
+  }
+ 
+
 /********************************************************Escritorio  ************************************************/
 
 @media only screen and (min-width: 1200px) {
