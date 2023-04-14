@@ -29,7 +29,6 @@ body {
 /********************************************************mobile ****************************************************/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
   /************************************************ Seccion Portada ************************************************/
   .header-titulo {
     color: rgb(218, 173, 62);
@@ -151,7 +150,6 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
-  
 }
 .texto2 {
   position: absolute;
@@ -244,16 +242,14 @@ img {
   width: 100%;
 }
 
-  /* **********************************************footer ****************************************************/ 
-.contacto-footer  {
-  position:absolute;
+/* **********************************************footer ****************************************************/
+.contacto-footer {
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 300px;
   background-color: #f5f5f5;
   bottom: -1900px !important;
-  
-
 }
 
 .footer {
@@ -270,57 +266,48 @@ img {
   justify-content: center;
   gap: 1rem;
   background-color: #141313;
-
- 
 }
-.relleno-footer a{
+.relleno-footer a {
   display: flex;
   justify-content: start;
   align-items: center;
   color: aliceblue;
   font-weight: 600;
   margin-left: 5px;
-  
-  
-  
-  
 }
-.mapa{
+.mapa {
   display: flex;
   justify-content: end;
   align-items: center;
   margin-left: 150px;
- padding: 20px;
- margin-top: -160px;
+  padding: 20px;
+  margin-top: -160px;
 }
-h3{
+h3 {
   font-size: 40px;
   padding: 2rem;
-  
-
 }
-h4{
+h4 {
   color: darkorange;
   font-weight: 600;
   margin-top: -250px;
 }
-.datos{
+.datos {
   margin-top: 160px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.datos-mail{
-margin-top: -30px;
-
+.datos-mail {
+  margin-top: -30px;
 }
 
-  .domicilio{
-    margin-top: -80px;
+.domicilio {
+  margin-top: -80px;
   margin-left: 0px;
-  }
+}
 
-/* ****************************************************Seccion Hombre ********************************************/ 
+/* ****************************************************Seccion Hombre ********************************************/
 
 .body-hombre {
   background-image: url(./img/hombre/foto-portada-h.jpg);
@@ -397,7 +384,7 @@ img {
   transform: translate(-50%, -50%);
   color: rgba(255, 255, 255, 0.952);
   font-size: 37px;
-  padding:0;
+  padding: 0;
   margin-top: 1800px;
   width: 100%;
 }
@@ -432,7 +419,7 @@ img {
   color: rgba(255, 255, 255, 0.952);
   font-size: 40px;
   padding: 5px;
-  margin-top: 2930px;
+  margin-top: 3100px;
   width: 100%;
   text-align: center;
 }
@@ -450,7 +437,7 @@ img {
   color: rgba(255, 255, 255, 0.952);
   font-size: 40px;
   padding: 5px;
-  margin-top: 3480px;
+  margin-top: 3680px;
   width: 100%;
   text-align: center;
 }
@@ -468,7 +455,7 @@ img {
   color: rgba(255, 255, 255, 0.952);
   font-size: 40px;
   padding: 5px;
-  margin-top: 4020px;
+  margin-top: 4280px;
   width: 100%;
   text-align: center;
 }
@@ -485,7 +472,7 @@ img {
   color: rgba(255, 255, 255, 0.952);
   font-size: 40px;
   padding: 5px;
-  margin-top: 4580px;
+  margin-top: 4680px;
   width: 100%;
   text-align: center;
 }
@@ -507,15 +494,13 @@ img {
   text-align: center;
 }
 /********************************************** Footer Hombre ********************************************/
-.contacto-footer-hombre  {
-  position:absolute;
+.contacto-footer-hombre {
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 300px;
   background-color: #f5f5f5;
   bottom: -5400px !important;
-  
-
 }
 
 .footer-hombre {
@@ -532,198 +517,340 @@ img {
   justify-content: center;
   gap: 1rem;
   background-color: #141313;
-
- 
 }
-.relleno-footer-hombre a{
+.relleno-footer-hombre a {
   display: flex;
   justify-content: start;
   align-items: center;
   color: aliceblue;
   font-weight: 600;
-  
-  
-  
-  
 }
 .mapa-hombre {
   display: flex;
   justify-content: end;
   align-items: center;
   margin-left: 150px;
- padding: 20px;
- margin-top: -160px;
+  padding: 20px;
+  margin-top: -160px;
 }
-.h3-hombre{
+.h3-hombre {
   font-size: 40px;
   padding: 2rem;
-  
-
 }
-.h4-hombre{
+.h4-hombre {
   color: darkorange;
   font-weight: 600;
   margin-top: -250px;
 }
-.datos-hombre{
+.datos-hombre {
   margin-top: 160px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.datos-mail-hombre{
-margin-top: -30px;
-color: #f5f5f5;
-
+.datos-mail-hombre {
+  margin-top: -30px;
+  color: #f5f5f5;
 }
 
-  .domicilio-hombre{
-    margin-top: -80px;
+.domicilio-hombre {
+  margin-top: -80px;
   margin-left: 0px;
-  }
+}
 
-  /***************************************************** MUJER  ******************************************************/
-  .body-mujer {
-    background-image: url(./img/mujer/portada.mujer.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 210vh;
-    background-color: #464646;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    position: absolute;
-  
-   
-  }
-  .header-mujer {
-    position: relative;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    padding: 40px;
-  }
-  .Cristopherlucky {
-    color: darkgoldenrod;
-    margin-top: 10%;
-    font-size: 60px;
-  }
-  a {
-    text-decoration: none;
-    width: 100%;
-  }
-  .mujer-form {
-    display: none;
-  }
-  .list-nav-mujer li {
-    margin-top: 20%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 40px;
-    align-self: center;
-    font-size: 30px;
-  }
-  .title-mujer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50%;
-    font-family: monospace;
-    font-size: 120px;
-    color: rgba(240, 248, 255, 0.39);
-  }
-  .contenedor-img-mujer {
-    margin-top: 90px;
-    padding: 10px;
-    gap: 20px;
-  }
-  .conjuntos-mujer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 300px;
-    font-size: 30px;
-  }
-  img {
-    width: 100%;
-  }
-  .foto1-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
-  }
-  .conjunto-mujer {
-    position: absolute;
-    top: 0%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.952);
-    font-size: 37px;
-    padding:0;
-    margin-top: 1800px;
-    width: 100%;
-  }
-  
-  .foto2-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
-  }
-  .-mujer {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.952);
-    font-size: 40px;
-    padding: 5px;
-    margin-top: 2350px;
-    width: 100%;
-    text-align: center;
-  }
-  .foto3-mujer{
-    position: static;
-    display: inline-block;
-    text-align: center;
-  }
-  .-mujer1 {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.952);
-    font-size: 40px;
-    padding: 5px;
-    margin-top: 2930px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .foto4-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
-  }
-  .-mujer2 {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.952);
-    font-size: 40px;
-    padding: 5px;
-    margin-top: 3480px;
-    width: 100%;
-    text-align: center;
-  }
- 
+/***************************************************** MUJER Mobile  ******************************************************/
+.body-mujer {
+  background-image: url(./img/mujer/portada.mujer2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150vh;
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+.header-mujer {
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+.Cristopherlucky {
+  color: darkgoldenrod;
+  margin-top: 10%;
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+  width: 100%;
+}
+.mujer-form {
+  display: none;
+}
+.list-nav-mujer li {
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 40px;
+  align-self: center;
+  font-size: 30px;
+}
+.title-mujer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50%;
+  font-family: monospace;
+  font-size: 120px;
+  color: rgba(240, 248, 255, 0.39);
+}
+.contenedor-img-mujer {
+  margin-top: 90px;
+  padding: 10px;
+  gap: 20px;
+}
+.conjuntos-mujer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+}
+.foto1-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.carteras-mujer {
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 37px;
+  padding: 0;
+  margin-top: 1800px;
+  width: 100%;
+}
+
+.foto2-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.bikinis-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 2450px;
+  width: 100%;
+  text-align: center;
+}
+.foto3-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.estilos-mujeres {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 3030px;
+  width: 100%;
+  text-align: center;
+}
+
+.foto4-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.polera-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 3720px;
+  width: 100%;
+  text-align: center;
+}
+.foto5-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.remeras-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 4320px;
+  width: 100%;
+  text-align: center;
+}
+
+.foto6-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.conjuntos-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 4920px;
+  width: 100%;
+  text-align: center;
+}
+
+.foto7-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.relojes-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 5620px;
+  width: 100%;
+  text-align: center;
+}
+.foto7-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.buzo-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 6150px;
+  width: 100%;
+  text-align: center;
+}
+.foto7-mujer {
+  position: static;
+  display: inline-block;
+  text-align: center;
+}
+.zapatillas-mujer {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 6780px;
+  width: 100%;
+  text-align: center;
+}
+
+/********************************************************FOOTER MUJER ***********************************************/
+
+.contacto-footer-mujer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #f5f5f5;
+  bottom: -500px !important;
+}
+
+.footer-mujer {
+  height: 380px;
+  line-height: 50px;
+  background: rgba(31, 20, 20, 0.973);
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: -120px;
+  left: 0px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #141313;
+}
+.relleno-footer-mujer a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: aliceblue;
+  font-weight: 600;
+}
+.mapa-mujer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 150px;
+  padding: 20px;
+  margin-top: -160px;
+}
+.h3-mujer {
+  font-size: 40px;
+  padding: 2rem;
+}
+.h4-mujer {
+  color: darkorange;
+  font-weight: 600;
+  margin-top: -250px;
+}
+.datos-mujer {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.datos-mail-mujer {
+  margin-top: -30px;
+  color: #f5f5f5;
+}
+
+.domicilio-mujer {
+  margin-top: -80px;
+  margin-left: 0px;
+}
+
+/************************************************  Nosotros-Contacto  **********************************************/
 
 /********************************************************Escritorio  ************************************************/
 
 @media only screen and (min-width: 1200px) {
-
   /****************************************************Seccion Portada  ***********************************************/
   .header-titulo {
     color: darkgoldenrod;
@@ -747,7 +874,7 @@ color: #f5f5f5;
     gap: 25px;
     font-weight: 900;
   }
-  a{
+  a {
     display: block;
     justify-content: center;
     align-items: center;
@@ -832,7 +959,6 @@ color: #f5f5f5;
     text-align: center;
     justify-content: center;
     margin-top: 120px;
-    
   }
   .texto2 {
     position: absolute;
@@ -905,7 +1031,7 @@ color: #f5f5f5;
   }
 
   /*********************************************** *******segundo articulo *****************************************/
-  
+
   .articulo2 {
     box-sizing: border-box;
     display: inline;
@@ -935,20 +1061,18 @@ color: #f5f5f5;
     width: 100%;
   }
 
-/********************************************************* Footer  **************************************************/
- 
-.contacto-footer  {
-    position:absolute;
+  /********************************************************* Footer  **************************************************/
+
+  .contacto-footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
     bottom: -2900px !important;
     width: 100%;
-    
-  
   }
-  
+
   .footer {
     height: 350px;
     line-height: 50px;
@@ -963,10 +1087,8 @@ color: #f5f5f5;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
-  
-   
   }
-  .relleno-footer a{
+  .relleno-footer a {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -974,51 +1096,42 @@ color: #f5f5f5;
     color: aliceblue;
     font-weight: 600;
     padding: 10px;
-    
-    
-    
-    
   }
   .mapa {
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-left:30px;
-    
-   
+    margin-left: 30px;
   }
-  h3{
+  h3 {
     font-size: 40px;
     margin-left: 60px;
   }
-  h4{
+  h4 {
     color: darkorange;
     font-weight: 800;
     margin-top: 30px;
     font-size: 20px;
     margin-right: 40px;
   }
-  .datos{
+  .datos {
     margin-top: 160px;
     display: flex;
     justify-content: start;
     text-align: start;
     margin-left: -40px;
-    
   }
-  .datos-mail{
-  margin-top: -30px;
-  margin-left: -40px;
- 
-  
-  }
-  .domicilio{
+  .datos-mail {
     margin-top: -30px;
-  margin-left: -140px;
+    margin-left: -40px;
+  }
+  .domicilio {
+    margin-top: -30px;
+    margin-left: -140px;
   }
 
   /******************************************************seccion hombre **********************************************/
-  
+
   .header-hombre h1 {
     color: darkgoldenrod;
     margin-top: 15%;
@@ -1117,7 +1230,6 @@ color: #f5f5f5;
     padding: 0px;
     margin-top: 2000px;
     display: flex;
-   
   }
 
   .foto2-hombre {
@@ -1135,7 +1247,6 @@ color: #f5f5f5;
     font-size: 45px;
     padding: 5px;
     margin-top: 2000px;
-    
   }
   .foto3-hombre {
     position: static;
@@ -1151,7 +1262,7 @@ color: #f5f5f5;
     font-size: 44px;
     padding: 5px;
     margin-top: 2000px;
-    
+
     display: flex;
   }
 
@@ -1169,7 +1280,7 @@ color: #f5f5f5;
     font-size: 40px;
     padding: 5px;
     margin-top: 2880px;
-    
+
     display: flex;
   }
 
@@ -1187,7 +1298,6 @@ color: #f5f5f5;
     font-size: 40px;
     padding: 5px;
     margin-top: 2880px;
-    
   }
   .foto6-hombre {
     position: static;
@@ -1204,7 +1314,7 @@ color: #f5f5f5;
     font-size: 40px;
     padding: 5px;
     margin-top: 2880px;
-    
+
     display: flex;
   }
   .foto7-hombre {
@@ -1221,23 +1331,18 @@ color: #f5f5f5;
     font-size: 40px;
     padding: 5px;
     margin-top: 3730px;
-    
-}
+  }
 
-/*****************************************************Footer Hombre *****************************************/
-.contacto-footer-hombre  {
-    position:absolute;
+  /*****************************************************Footer Hombre *****************************************/
+  .contacto-footer-hombre {
+    position: absolute;
     bottom: 0px;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
     bottom: -3700px !important;
-    
-    
-    
-  
   }
-  
+
   .footer-hombre {
     height: 350px;
     line-height: 50px;
@@ -1252,10 +1357,8 @@ color: #f5f5f5;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
-  
-   
   }
-  .relleno-footer-hombre a{
+  .relleno-footer-hombre a {
     display: flex;
     justify-content: start;
     text-align: center;
@@ -1264,353 +1367,325 @@ color: #f5f5f5;
     font-weight: 400;
     padding: 10px;
     font-size: 20px;
-    
-    
-    
-    
   }
-  .mapa-hombre{
+  .mapa-hombre {
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-left:50px;
-    
-    
-   
+    margin-left: 50px;
   }
-  .h3-hombre{
+  .h3-hombre {
     font-size: 40px;
     margin-left: 60px;
   }
-  .h4-hombre{
+  .h4-hombre {
     color: darkorange;
     font-weight: 800;
     margin-top: 30px;
     font-size: 20px;
-    margin-right:40px;
+    margin-right: 40px;
   }
-  .datos-hombre{
+  .datos-hombre {
     margin-top: 160px;
     display: flex;
     justify-content: start;
     text-align: start;
     margin-left: -40px;
-    
   }
-  .datos-mail-hombre{
-  margin-top: -30px;
-  margin-left: -40px;
- 
-  
+  .datos-mail-hombre {
+    margin-top: -30px;
+    margin-left: -40px;
   }
-  .domicilio-hombre{
+  .domicilio-hombre {
     margin-top: -80px;
-  margin-left: -140px;
+    margin-left: -140px;
   }
 
-/************************************************* Mujer ****************************************/
-.body-mujer {
-  background-image: url(./img/mujer/portada.mujer.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 210vh;
-  background-color: #464646;
-  display: flex;
-  flex-direction:column;
-  justify-content:center;
-  position: absolute;
-
- 
-}
-.header-mujer {
-  position: relative;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  padding: 40px;
-}
-.Cristopherlucky {
-  color: darkgoldenrod;
-  margin-top: 10%;
-  font-size: 60px;
-}
-a {
-  text-decoration: none;
-  width: 100%;
-}
-.mujer-form {
-  display: flex;
-  margin-top: 10%;
-  margin-left: 42%;
-  font-size: 40px;
-  position: absolute;
-}
-.list-nav-mujer li {
-  margin-top: 20%;
-  display: flex;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 20px;
-  align-self: center;
-  font-size: 30px;
-}
-.title-mujer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 30%;
-  font-family: monospace;
-  font-size: 120px;
-  color: rgba(240, 248, 255, 0.39);
-}
-.contenedor-img-mujer {
-  display: grid;
+  /************************************************* Mujer ****************************************/
+  .body-mujer {
+    background-image: url(./img/mujer/portada.mujer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 210vh;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+  }
+  .header-mujer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 10%;
+    font-size: 60px;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  .mujer-form {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 40px;
+    position: absolute;
+  }
+  .list-nav-mujer li {
+    margin-top: 20%;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+    font-family: monospace;
+    font-size: 120px;
+    color: rgba(240, 248, 255, 0.39);
+  }
+  .contenedor-img-mujer {
+    display: grid;
     grid-auto-rows: 800px;
     gap: 3rem;
     grid-auto-flow: row dense;
     grid-template-columns: repeat(3, 1fr);
-}
-.conjuntos-mujer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 300px;
-  font-size: 30px;
-}
-img {
-  width: 100%;
-}
-.foto-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.carteras-mujer {
-  position: absolute;
-  top: 0%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 37px;
-  padding:0;
-  margin-top: 2050px;
-  width: 100%;
-}
+  }
+  .conjuntos-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .foto-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .carteras-mujer {
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 37px;
+    padding: 0;
+    margin-top: 2050px;
+    width: 100%;
+  }
 
-.foto1-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.bikinis-mujer {
-  position: absolute;
-  top: 0%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 2050px;
-  width: 100%;
-  text-align: center;
-}
-.foto2-mujer { 
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.estilos-mujeres {
-  position: absolute;
-  top: 0%;
-  left: 81%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 2050px;
-  width: 100%;
-  text-align: center;
-}
+  .foto1-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .bikinis-mujer {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2050px;
+    width: 100%;
+    text-align: center;
+  }
+  .foto2-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .estilos-mujeres {
+    position: absolute;
+    top: 0%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2050px;
+    width: 100%;
+    text-align: center;
+  }
 
-.foto3-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.polera-mujer{
-  position: absolute;
-  top: 0%;
-  left: 14%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 2900px;
-  width: 100%;
-  text-align: center;
-}
-.remeras-mujer{
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.remeras-mujer{
-  position: absolute;
-  top: 0%;
-  left: 47%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 2900px;
-  width: 100%;
-  text-align: center;
-}
-.conjuntos-mujer {
-  position: absolute;
-  top: 0%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 2900px;
-  width: 100%;
-  text-align: center;
-}
-.foto5-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.relojes-mujer{
-  position: absolute;
-  top: 0%;
-  left: 14%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 3780px;
-  width: 100%;
-  text-align: center;
-}
-.foto6-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.buzo-mujer {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 3780px;
-  width: 100%;
-  text-align: center;
-}
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-.zapatillas-mujer {
-  position: absolute;
-  top: 0%;
-  left: 81%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  padding: 5px;
-  margin-top: 3780px;
-  width: 100%;
-  text-align: center;
-}
-/*******************************************************footer mujer *****************************************/
-.contacto-footer-mujer  {
-  position:absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 300px;
-  background-color: #f5f5f5;
-  bottom: -2200px !important;
-  
-  
-  
+  .foto3-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .polera-mujer {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2900px;
+    width: 100%;
+    text-align: center;
+  }
+  .remeras-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .remeras-mujer {
+    position: absolute;
+    top: 0%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2900px;
+    width: 100%;
+    text-align: center;
+  }
+  .conjuntos-mujer {
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 2900px;
+    width: 100%;
+    text-align: center;
+  }
+  .foto5-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .relojes-mujer {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 3780px;
+    width: 100%;
+    text-align: center;
+  }
+  .foto6-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .buzo-mujer {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 3780px;
+    width: 100%;
+    text-align: center;
+  }
+  .foto7-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .zapatillas-mujer {
+    position: absolute;
+    top: 0%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 3780px;
+    width: 100%;
+    text-align: center;
+  }
+  /*******************************************************footer mujer *****************************************/
+  .contacto-footer-mujer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -2200px !important;
+  }
 
-}
-
-.footer-mujer {
-  height: 350px;
-  line-height: 50px;
-  background: rgba(31, 20, 20, 0.973);
-  color: white;
-  text-align: center;
-  position: absolute;
-  bottom: -100px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  background-color: #141313;
-
- 
-}
-.relleno-footer-mujer a{
-  display: flex;
-  justify-content: start;
-  text-align: center;
-  align-items: start;
-  color: aliceblue;
-  font-weight: 400;
-  padding: 10px;
-  font-size: 20px;
-  
-  
-  
-  
-}
-.mapa-mujer{
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  margin-left:50px;
-  
-  
- 
-}
-.h3-mujer{
-  font-size: 40px;
-  margin-left: 60px;
-}
-.h4-mujer{
-  color: darkorange;
-  font-weight: 800;
-  margin-top: 30px;
-  font-size: 20px;
-  margin-right:40px;
-}
-.datos-mujer{
-  margin-top: 160px;
-  display: flex;
-  justify-content: start;
-  text-align: start;
-  margin-left: -40px;
-  
-}
-.datos-mail-mujer{
-margin-top: -30px;
-margin-left: -40px;
-
-
-}
-.domicilio-mujer{
-  margin-top: -80px;
-margin-left: -140px;
-}
+  .footer-mujer {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-mujer a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: start;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .mapa-mujer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 50px;
+  }
+  .h3-mujer {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .h4-mujer {
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .datos-mujer {
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+  }
+  .datos-mail-mujer {
+    margin-top: -30px;
+    margin-left: -40px;
+  }
+  .domicilio-mujer {
+    margin-top: -80px;
+    margin-left: -140px;
+  }
 }
