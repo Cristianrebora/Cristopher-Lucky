@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Nosotros-Contactos</title>
+  </head>
+
+  <body-nosotros>
+    <div class="contacto_form">
+      <div class="contacto-nosotros">
+        <a href="../index.html"><h1>Cristopher Lucky</h1></a>
+
+        <div>
+          <form action="" class="nosotros-form">
+            <input type="search" name="search" placeholder="buscar" />
+            <input type="submit" value="enviar" />
+          </form>
+        </div>
+
+        <div>
+          <nav class="nav-nosotros">
+            <ul class="list-nav-nosotros">
+              <li>
+                <a
+                  class="nosotros-contacto"
+                  href="../pages/Nosotros-contacto.html"
+                  >NOSOTROS</a
+                >
+                <a class="mujer-contacto" href="../pages/mujeres.html">MUJER</a>
+                <a class="hombre-contacto" href="../pages/hombres.html"
+                  >HOMBRE</a
+                >
+                <a class="niños-contacto" href="../pages/niños.html">NIÑOS</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h2-nos>Escríbenos y en breve nos pondremos en contacto contigo</h2-nos>
+        
+        
+        <form action="submeter-formulario.php" method="post">
+          <p-nos>
+            <label-nosotros for="nombre" class="colocar_nombre"
+              >Nombre
+              <span class="obligatorio-nosotros">*</span>
+            </label-nosotros>
+          
+            <input
+              class="imput-nosotros"
+              type="text"
+              name="introducir_nombre"
+              id="nombre"
+              required="obligatorio"
+              placeholder="Escribe tu nombre"
+            />
+          </p-nos>
+
+          <p-nos>
+            <label-nosotros for="email" class="colocar_email"
+              >Email
+              <span class="obligatorio-nosotros">*</span>
+            </label-nosotros>
+            <input
+              class="imput-nosotros"
+              type="email"
+              name="introducir_email"
+              id="email"
+              required="obligatorio"
+              placeholder="Escribe tu Email"
+            />
+          </p-nos>
+
+          <p-nos>
+            <label-nosotros for="telefone" class="colocar_telefono"
+              >Teléfono
+            </label-nosotros>
+            <input
+              class="imput-nosotros"
+              type="tel"
+              name="introducir_telefono"
+              id="telefono"
+              placeholder="Escribe tu teléfono"
+            />
+          </p-nos>
+
+          <p-nos>
+            <label-nosotros for="asunto" class="colocar_asunto"
+              >Asunto
+              <span class="obligatorio-nosotros">*</span>
+            </label-nosotros>
+            <input
+              class="imput-nosotros"
+              type="text"
+              name="introducir_asunto"
+              id="assunto"
+              required="obligatorio"
+              placeholder="Escribe un asunto"
+            />
+          </p-nos>
+
+          <p-nos>
+            <label-nosotros for="mensaje" class="colocar_mensaje"
+              >Mensaje
+              <span class="obligatorio-nosotros">*</span>
+            </label-nosotros>
+            <textarea-nosotros
+              name="introducir_mensaje"
+              class="texto_mensaje"
+              id="mensaje"
+              required="obligatorio"
+              placeholder="Deja aquí tu comentario..."
+            ></textarea-nosotros>
+          </p-nos>
+
+          <button
+            class="boton-nos"
+            type="submit"
+            name="enviar_formulario"
+            id="enviar"
+          >
+            <p-nos>Enviar</p-nos>
+          </button>
+
+          <p-nos class="aviso-nosotros">
+            <span class="obligatorio-nosotros"> * </span>los campos son
+            obligatorios.
+          </p-nos>
+        </form>
+      </div>
+    </div>
+  </body-nosotros>
+</html>
