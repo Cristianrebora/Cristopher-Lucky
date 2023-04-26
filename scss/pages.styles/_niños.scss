@@ -1,0 +1,164 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+/*********************************************************Niños  *****************************************************/
+
+.header-ninos {
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+.Cristopherlucky {
+  color: rgba(255, 140, 0, 0.733);
+  margin-top: 20%;
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  width: 100%;
+}
+.ninos-form {
+  display: none;
+}
+.list-nav-ninos li {
+  margin-top: 50%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 30px;
+  align-self: center;
+  font-size: 30px;
+}
+  .title-ninio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: monospace;
+    font-size: 100px;
+    color: rgba(240, 248, 255, 0.212);
+  }
+  .contenedor-img-ninos{
+    margin-top: 90px;
+    padding: 0px;
+    gap: 20px;
+  }
+  .figure { 
+    margin: 0;
+    display: inline-block;
+    position: relative;
+  padding: 7px;
+  }
+  
+  figcaption{
+    position: absolute;
+    left: 50px;
+  bottom: 0px; 
+  width: 80%; 
+  padding: 13%;
+  color: azure;
+  font-size: 25px;
+  }
+  
+  .conjuntos-ninio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .foto1-ninio {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /*********************************************************Niños  *****************************************************/
+  
+  .header-ninos {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 20%;
+    font-size: 60px;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  .ninos-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .list-nav-ninos li {
+    margin-top: 20%;
+    display: flex;
+    gap: 30px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-ninio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: monospace;
+    font-size: 100px;
+    color: rgba(240, 248, 255, 0.212);
+  }
+  .contenedor-img-ninio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 650px;
+    padding: 20px;
+    grid-gap: 10px;
+    
+
+   
+    }
+    figure { 
+      margin: 0;
+      display: inline;
+      position: relative;
+      padding: 7px;
+    }
+    
+    figcaption{
+      position: absolute;
+      left: 50px;
+      bottom: 68px; 
+       width: 89%; 
+       padding: 11%;
+       color: azure;
+       font-size: 25px;
+    }
+  
+  .conjuntos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .foto1-ninio {
+    position: static;
+    display: inline-block;
+    text-align: center;
+}
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Nosotros-Contactos</title>
   </head>
 
@@ -39,15 +39,14 @@
           </nav>
         </div>
         <h2-nos>Escríbenos y en breve nos pondremos en contacto contigo</h2-nos>
-        
-        
+
         <form action="submeter-formulario.php" method="post">
           <p-nos>
             <label-nosotros for="nombre" class="colocar_nombre"
               >Nombre
               <span class="obligatorio-nosotros">*</span>
             </label-nosotros>
-          
+
             <input
               class="imput-nosotros"
               type="text"
@@ -106,16 +105,17 @@
               >Mensaje
               <span class="obligatorio-nosotros">*</span>
             </label-nosotros>
-            <textarea-nosotros
+
+            <textarea
               name="introducir_mensaje"
               class="texto_mensaje"
               id="mensaje"
               required="obligatorio"
               placeholder="Deja aquí tu comentario..."
-            ></textarea-nosotros>
+            ></textarea>
           </p-nos>
 
-          <button
+          <button 
             class="boton-nos"
             type="submit"
             name="enviar_formulario"

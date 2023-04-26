@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.795);
+    align-self: center;
+    margin-bottom: -5%;
+    max-width: 100%;
+  }
+  //****************portada***************** 
+  body {
+    background-image: url(../img/portada-zapatillas/foto-mujer-portada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+    
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+//*************seccion hombre*************
+  .body-hombre {
+    background-image: url(../img/hombre/foto-portada-h.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  //***********seccion mujer***************
+
+  .body-mujer {
+    background-image: url(../img/mujer/portada.mujer2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    max-width: 100%;
+    overflow-x: hidden;
+   
+  }
+
+  //**********seccion niños******************
+  .body-ninos {
+    background-image: url(../img/niños/portada-niños.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+  }
+  
+//************seccion nosotros***************
+body-nosotros {
+    height: 95%;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    background-color: rgba(255, 140, 0, 0.644);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+ 
+    
+
+.body-mujer {
+    background-image: url(../img/mujer/portada.mujer2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .body-hombre {
+    background-image: url(../img/hombre/foto-portada-h.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  
+
+  .body-ninos {
+    background-image: url(../img/niños/portada-niños.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ }
