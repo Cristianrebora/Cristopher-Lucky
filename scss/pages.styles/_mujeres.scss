@@ -1,62 +1,63 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-/***************************************************** MUJER Mobile  ******************************************************/
-.header-mujer {
-  position: relative;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  padding: 40px;
+  /***************************************************** MUJER Mobile  ******************************************************/
+  .header-mujer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 10%;
+    font-size: 50px;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  .mujer-form {
+    display: none;
+  }
+  .list-nav-mujer li {
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 40px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: monospace;
+    font-size: 120px;
+    color: rgba(240, 248, 255, 0.39);
+  }
+  // .contenedor-img-mujer {
+  //   margin-top: 90px;
+  //   padding: 10px;
+  //   gap: 20px;
 }
-.Cristopherlucky {
-  color: darkgoldenrod;
-  margin-top: 10%;
-  font-size: 50px;
-}
-a {
-  text-decoration: none;
-  width: 100%;
-}
-.mujer-form {
-  display: none;
-}
-.list-nav-mujer li {
-  margin-top: 20%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 40px;
-  align-self: center;
-  font-size: 30px;
-}
-.title-mujer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50%;
-  font-family: monospace;
-  font-size: 120px;
-  color: rgba(240, 248, 255, 0.39);
-}
-// .contenedor-img-mujer {
-//   margin-top: 90px;
-//   padding: 10px;
-//   gap: 20px;
-}
-figure { 
+figure {
   margin: 0;
   display: inline-block;
   position: relative;
-padding: 7px;
+  padding: 7px;
 }
 
-figcaption{
+figcaption {
   position: absolute;
   left: 0px;
-bottom: 0px; 
-width: 65%; 
-padding: 35%;
-color: azure;
-font-size: 25px;
+  bottom: 0px;
+  width: 65%;
+  padding: 35%;
+  color: azure;
+  font-size: 25px;
+  margin-left: 20px;
 }
 
 .conjuntos-mujer {
@@ -75,64 +76,96 @@ img {
   text-align: center;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1199px) {
+  .header-mujer {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 10%;
+    font-size: 60px;
+  }
+  a {
+    text-decoration: none;
+    max-width: 100%;
+  }
+  .mujer-form {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 40px;
+    position: absolute;
+  }
+  .list-nav-mujer li {
+    margin-top: 20%;
+    margin-left: 50px;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 60px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+    font-family: monospace;
+    font-size: 120px;
+    color: rgba(240, 248, 255, 0.39);
+  }
+  .contenedor-img-mujer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 600px;
+    padding: 20px;
+    grid-gap: 80px;
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+  }
 
-.foto2-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
+  figcaption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 65%;
+    padding: 35%;
+    color: azure;
+    font-size: 25px;
+  }
+
+  .conjuntos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .foto-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
+  .foto1-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
 }
 
-
-.foto3-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-
-.foto4-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-
-.foto5-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-
-
-.foto6-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1200px)  {
-
-  
+@media only screen and (min-width: 1200px) {
   .header-mujer {
     position: relative;
     display: block;
@@ -180,27 +213,24 @@ img {
     grid-auto-rows: 650px;
     padding: 20px;
     grid-gap: 10px;
-    
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+  }
 
-   
-    }
-    figure { 
-      margin: 0;
-      display: inline-block;
-      position: relative;
-      padding: 7px;
-    }
-    
-    figcaption{
-      position: absolute;
-      left: 0px;
-      bottom: 0px; 
-       width: 65%; 
-       padding: 35%;
-       color: azure;
-       font-size: 25px;
-    }
-  
+  figcaption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 65%;
+    padding: 35%;
+    color: azure;
+    font-size: 25px;
+  }
+
   .conjuntos {
     display: flex;
     justify-content: center;
@@ -215,21 +245,18 @@ img {
     position: static;
     display: inline-block;
     text-align: center;
-  
   }
   .foto1-mujer {
     position: static;
     display: inline-block;
     text-align: center;
   }
-  
 
   .foto2-mujer {
     position: static;
     display: inline-block;
     text-align: center;
   }
-  
 
   .foto3-mujer {
     position: static;
@@ -237,15 +264,12 @@ img {
     text-align: center;
   }
 
-
-
-
   .foto5-mujer {
     position: static;
     display: inline-block;
     text-align: center;
   }
- 
+
   .foto6-mujer {
     position: static;
     display: inline-block;
@@ -256,5 +280,4 @@ img {
     display: inline-block;
     text-align: center;
   }
-
-  }
+}

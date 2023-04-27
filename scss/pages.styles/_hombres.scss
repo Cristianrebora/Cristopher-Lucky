@@ -1,5 +1,4 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
   .header-hombre {
     position: relative;
     display: block;
@@ -29,36 +28,120 @@
     font-size: 30px;
   }
 
-.title-hombre {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50%;
-  font-family: monospace;
-  font-size: 100px;
-  color: rgba(240, 248, 255, 0.212);
-}
-.contenedor-img-hombre {
-  margin-top: 90px;
-  padding: 10px;
-  gap: 20px;
-}
-.conjuntos {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 300px;
-  font-size: 30px;
-}
-img {
-  width: 100%;
-}
-.foto1-hombre {
-  position: static;
-  display: inline-block;
-  text-align: center;
+  .title-hombre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    font-family: monospace;
+    font-size: 100px;
+    color: rgba(240, 248, 255, 0.212);
+  }
+  .contenedor-img-hombre {
+    margin-top: 90px;
+    padding: 10px;
+    gap: 20px;
+  }
+  .conjuntos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .foto1-hombre {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1199px) {
+  .header-hombre {
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  .Cristopherlucky {
+    color: darkgoldenrod;
+    margin-top: 10%;
+    font-size: 60px;
+  }
+  a {
+    text-decoration: none;
+    max-width: 100%;
+  }
+  .hombre-form {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 40px;
+    position: absolute;
+  }
+  .list-nav-hombre li {
+    margin-top: 20%;
+    margin-left: 50px;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 60px;
+    align-self: center;
+    font-size: 30px;
+  }
+  .title-hombre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+    font-family: monospace;
+    font-size: 120px;
+    color: rgba(240, 248, 255, 0.39);
+  }
+  .contenedor-img-hombre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 600px;
+    padding: 20px;
+    grid-gap: 80px;
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+  }
+
+  figcaption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 65%;
+    padding: 35%;
+    color: azure;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .conjuntos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .foto-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .header-hombre {
@@ -108,27 +191,24 @@ img {
     grid-auto-rows: 650px;
     padding: 20px;
     grid-gap: 10px;
-    
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+  }
 
-   
-    }
-    figure { 
-      margin: 0;
-      display: inline-block;
-      position: relative;
-      padding: 7px;
-    }
-    
-    figcaption{
-      position: absolute;
-      left: 0px;
-      bottom: 0px; 
-       width: 65%; 
-       padding: 35%;
-       color: azure;
-       font-size: 25px;
-    }
-  
+  figcaption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 65%;
+    padding: 35%;
+    color: azure;
+    font-size: 25px;
+  }
+
   .conjuntos {
     display: flex;
     justify-content: center;
@@ -143,5 +223,5 @@ img {
     position: static;
     display: inline-block;
     text-align: center;
-}
+  }
 }
