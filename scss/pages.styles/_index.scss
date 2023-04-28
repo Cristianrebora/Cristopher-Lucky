@@ -85,6 +85,7 @@
   color: white;
   text-transform: uppercase;
   padding: 1em 1.5em;
+  margin-top: 20px;
 }
 
 .textoimg-1 {
@@ -137,12 +138,12 @@
   text-align: center;
 }
 
-.sombreros {
+.sombreros1 {
   position: absolute;
   top: -20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(0, 0, 0, 0.479);
+  color: rgba(0, 0, 0, 0.651);
   font-size: 30px;
   padding: 60px;
 }
@@ -155,7 +156,7 @@
 
 .carteras {
   position: absolute;
-  top: -10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(0, 0, 0, 0.479);
@@ -169,21 +170,21 @@
   text-align: center;
 }
 
-.zapatillas {
+.zapatillas1 {
   position: absolute;
-  top: -10%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(0, 0, 0, 0.616);
+  color: rgba(0, 0, 0, 0.829);
   font-size: 30px;
   padding: 60px;
-  margin-top: 750px;
+  margin-top: 390px;
 }
-
-.articulo2 {
+  .articulo2 {
   box-sizing: border-box;
   display: flex;
   margin-top: 740%;
+ gap: 40px;
 }
 
 .columna {
@@ -192,6 +193,7 @@
   padding-right: 10px;
   padding-left: 32px;
   margin-top: 0px;
+  
 }
 .columna2 {
   float: inline-start;
@@ -230,12 +232,12 @@ img:hover {
   }
   .nav-div {
     position: absolute;
-    margin-top: 50%;
-    margin-left: 150px;
+    margin-top: 400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    gap: 30px;
     font-weight: 900;
+    
   }
   a {
     display: block;
@@ -278,7 +280,7 @@ img:hover {
     font-size: 60px;
     color: rgba(240, 248, 255, 0.603);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 70%;
+    margin-top: 700px;
     text-transform: uppercase;
   }
   .articulo {
@@ -321,16 +323,16 @@ img:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 120px;
+    
   }
   .texto2 {
     position: absolute;
-    top: 45%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(5, 5, 5, 0.616);
-    margin-top: 1300px;
-    font-size: 40px;
+    margin-top: 1000px;
+    font-size: 30px;
     font-weight: 800;
   }
 
@@ -341,12 +343,12 @@ img:hover {
     text-align: center;
   }
 
-  .sombreros {
+  .sombreros1 {
     position: absolute;
-    top: 78%;
-    left: 15%;
+    top: 45%;
+    left: 19%;
     transform: translate(-50%, -50%);
-    color: rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.808);
     font-size: 30px;
     padding: 60px;
   }
@@ -358,15 +360,15 @@ img:hover {
     text-align: center;
   }
 
-  .carteras {
+  .carteras1 {
     position: absolute;
-    top: 0%;
+    top: -79%;
     left: 46%;
     transform: translate(-50%, -50%);
-    color: rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.733);
     font-size: 30px;
     padding: 60px;
-    margin-top: 382px;
+    
   }
   .zapatillas1 {
     position: relative;
@@ -375,15 +377,15 @@ img:hover {
     text-align: center;
   }
 
-  .zapatillas {
+  .zapatillas1 {
     position: absolute;
-    top: 0%;
-    left: 75%;
+    top: -24.5%;
+    left: 78%;
     transform: translate(-50%, -50%);
-    color: rgba(0, 0, 0, 0.616);
+    color: rgba(0, 0, 0, 0.774);
     font-size: 30px;
     padding: 60px;
-    margin-top: 380px;
+   
   }
 
   /*********************************************** *******segundo articulo *****************************************/
@@ -391,7 +393,7 @@ img:hover {
   .articulo2 {
     box-sizing: border-box;
     display: inline;
-    margin-top: 340%;
+   margin-top: 400%;
   }
 
   .columna {
@@ -426,7 +428,7 @@ img:hover {
   .header-titulo {
     color: darkgoldenrod;
     margin-top: 15%;
-    margin-left: 28%;
+    margin-left: 30%;
     font-size: 30px;
     position: absolute;
   }
@@ -439,10 +441,10 @@ img:hover {
   .nav-div {
     position: absolute;
     margin-top: 50%;
-    margin-left: 150px;
+    margin-left: 190px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    gap: 60px;
     font-weight: 900;
   }
   a {
@@ -492,7 +494,7 @@ img:hover {
   .articulo {
     position: absolute;
     align-self: center;
-    margin-top: 60%;
+    margin-top: 75%;
     flex-direction: column;
     padding: 15px;
     display: flex;
@@ -529,11 +531,11 @@ img:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 220px;
   }
   .texto2 {
     position: absolute;
-    top: 45%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(5, 5, 5, 0.616);
@@ -547,16 +549,18 @@ img:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    
   }
 
-  .sombreros {
+  .sombreros1 {
     position: absolute;
-    top: 78%;
-    left: 15%;
+    top: 70%;
+    left: 16%;
     transform: translate(-50%, -50%);
-    color: rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.849);
     font-size: 30px;
     padding: 60px;
+    
   }
 
   .carteras1 {
@@ -574,7 +578,7 @@ img:hover {
     color: rgba(0, 0, 0, 0.479);
     font-size: 30px;
     padding: 60px;
-    margin-top: 382px;
+    
   }
   .zapatillas1 {
     position: relative;
@@ -583,15 +587,16 @@ img:hover {
     text-align: center;
   }
 
-  .zapatillas {
+  .zapatillas1 {
     position: absolute;
     top: 0%;
     left: 75%;
     transform: translate(-50%, -50%);
-    color: rgba(0, 0, 0, 0.616);
+    color: rgba(0, 0, 0, 0.788);
     font-size: 30px;
     padding: 60px;
-    margin-top: 380px;
+    margin-left: 90px;
+  
   }
 
   /*********************************************** *******segundo articulo *****************************************/
@@ -599,7 +604,7 @@ img:hover {
   .articulo2 {
     box-sizing: border-box;
     display: inline;
-    margin-top: 340%;
+    margin-top: 380%;
   }
 
   .columna {
@@ -607,16 +612,16 @@ img:hover {
     width: 33%;
     padding-right: 10px;
     padding-left: 36px;
-    display: block;
+   
   }
   .columna2 {
-    float: inline-start;
+    float: inline;
     width: 30%;
     padding-right: 10px;
     padding-left: 30px;
   }
   .columna3 {
-    float: inline-start;
+    float: inline-end;
     width: 33%;
     padding-right: 9px;
     padding-left: 30px;
