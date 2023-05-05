@@ -39,6 +39,7 @@ body {
     justify-content: center;
     max-width: 100%;
     overflow-x: hidden;
+    
   }
 
   //***********seccion mujer***************
@@ -56,6 +57,7 @@ body {
     position: absolute;
     max-width: 100%;
     overflow-x: hidden;
+    
   }
 
   //**********seccion niños******************
@@ -139,8 +141,8 @@ body {
     position: absolute;
     object-fit: cover;
     width: 100%;
+    
   }
-
   .body-hombre {
     background-image: url(../img/hombre/foto-portada-h.jpg);
     background-position: center center;
