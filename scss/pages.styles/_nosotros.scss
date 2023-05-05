@@ -1,6 +1,6 @@
 /************************************************  Nosotros-Contacto  **********************************************/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  body-nosotros {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -60,9 +60,10 @@
     padding-bottom: 40px;
   }
 
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 10px;
   }
 
   .boton-nos {
@@ -99,22 +100,21 @@
     margin-left: 10px;
   }
 
-  h2-nos {
+  .h2-nos {
     font-size: 16px;
     padding-bottom: 30px;
 
     color: #0e0e0e;
   }
 
-  p-nos {
+  .p-nos {
     font-size: 14px;
     color: #0e0e0e;
-    padding: 10px;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
-  body-nosotros {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -177,9 +177,10 @@
     padding-bottom: 30px;
   }
 
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 5px;
   }
 
   .boton-nos {
@@ -216,7 +217,7 @@
     margin-left: 10px;
   }
 
-  h2-nos {
+  .h2-nos {
     font-size: 25px;
     margin-top: 50px;
     display: flex;
@@ -225,15 +226,14 @@
     color: #0e0e0e;
   }
 
-  p-nos {
+  .p-nos {
     font-size: 16px;
     color: #0e0e0e;
-    padding: 20px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  body-nosotros {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -296,9 +296,10 @@
     padding-bottom: 30px;
   }
 
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 10px;
   }
 
   .boton-nos {
@@ -335,7 +336,7 @@
     margin-left: 10px;
   }
 
-  h2-nos {
+  .h2-nos {
     font-size: 25px;
     margin-top: 50px;
     display: flex;
@@ -344,9 +345,8 @@
     color: #0e0e0e;
   }
 
-  p-nos {
+  .p-nos {
     font-size: 16px;
     color: #0e0e0e;
-    padding: 20px;
   }
 }

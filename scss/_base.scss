@@ -9,8 +9,6 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.795);
   align-self: center;
-  margin-bottom: -5%;
-  max-width: 100%;
 }
 //****************portada*****************
 body {
@@ -27,7 +25,7 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   //*************seccion hombre*************
   .body-hombre {
     background-image: url(../img/hombre/foto-portada-h.jpg);
@@ -76,7 +74,7 @@ body {
   }
 
   //************seccion nosotros***************
-  body-nosotros {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;

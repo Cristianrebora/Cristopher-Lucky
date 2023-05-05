@@ -11,8 +11,6 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.795);
   align-self: center;
-  margin-bottom: -5%;
-  max-width: 100%;
 }
 
 body {
@@ -29,7 +27,7 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   .body-hombre {
     background-image: url(../img/hombre/foto-portada-h.jpg);
     background-position: center center;
@@ -70,7 +68,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
   }
-  body-nosotros {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -159,7 +157,7 @@ body {
     justify-content: center;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /* **********************************************footer index ****************************************************/
   .contacto-footer {
     position: absolute;
@@ -167,7 +165,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -2100px !important;
+    bottom: -3200px !important;
   }
   .footer {
     height: 380px;
@@ -229,7 +227,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -5400px !important;
+    bottom: -900vh;
   }
   .footer-hombre {
     height: 380px;
@@ -291,7 +289,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -500px !important;
+    bottom: -600px !important;
   }
   .footer-mujer {
     height: 380px;
@@ -320,17 +318,17 @@ body {
     justify-content: end;
     align-items: center;
     margin-left: 150px;
-    padding: 20px;
+    padding: 5px;
     margin-top: -160px;
   }
   .h3-mujer {
-    font-size: 40px;
+    font-size: 30px;
     padding: 2rem;
   }
   .h4-mujer {
     color: darkorange;
     font-weight: 600;
-    margin-top: -220px;
+    margin-top: -240px;
   }
   .datos-mujer {
     margin-top: 180px;
@@ -339,7 +337,7 @@ body {
     text-align: center;
   }
   .datos-mail-mujer {
-    margin-top: -10px;
+    margin-top: -5px;
     color: #f5f5f5;
   }
   .domicilio-mujer {
@@ -353,7 +351,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -4200px !important;
+    bottom: -5900px !important;
   }
   .footer-ninos {
     height: 380px;
@@ -383,7 +381,7 @@ body {
     align-items: center;
     margin-left: 150px;
     padding: 20px;
-    margin-top: -160px;
+    margin-top: -200px;
   }
   .h3-ninos {
     font-size: 40px;
@@ -409,7 +407,7 @@ body {
     margin-left: 0px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
   .lista-footer a {
     display: block;
     justify-content: center;
@@ -424,7 +422,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -1200px !important;
+    bottom: -2100px !important;
   }
   .footer {
     height: 380px;
@@ -456,7 +454,7 @@ body {
     align-items: center;
     margin-left: 150px;
     padding: 20px;
-    margin-top: -160px;
+    margin-top: -190px;
   }
   h3 {
     font-size: 40px;
@@ -518,7 +516,7 @@ body {
     align-items: center;
     margin-left: 150px;
     padding: 20px;
-    margin-top: -220px;
+    margin-top: -320px;
   }
   .h3-mujer {
     font-size: 40px;
@@ -542,6 +540,7 @@ body {
   .domicilio-mujer {
     margin-top: -80px;
     margin-left: 0px;
+    padding: 5px;
   }
   .contacto-footer-hombre {
     position: absolute;
@@ -549,7 +548,7 @@ body {
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -3450px !important;
+    bottom: -3950px !important;
   }
   .footer-hombre {
     height: 380px;
@@ -572,7 +571,6 @@ body {
     align-items: center;
     color: aliceblue;
     font-weight: 600;
-    padding: 10px;
   }
   .mapa-hombre {
     display: flex;
@@ -580,7 +578,7 @@ body {
     align-items: center;
     margin-left: 150px;
     padding: 20px;
-    margin-top: -160px;
+    margin-top: -220px;
   }
   .h3-hombre {
     font-size: 40px;
@@ -635,24 +633,24 @@ body {
     align-items: center;
     color: aliceblue;
     font-weight: 600;
-    padding: 10px;
+    padding: 0px;
   }
   .mapa-ninos {
     display: flex;
     justify-content: end;
     align-items: center;
     margin-left: 150px;
-    padding: 20px;
-    margin-top: -160px;
+    margin-right: 10px;
+    margin-top: -200px;
   }
   .h3-ninos {
-    font-size: 40px;
+    font-size: 30px;
     padding: 2rem;
   }
   .h4-ninos {
     color: darkorange;
     font-weight: 600;
-    margin-top: -270px;
+    margin-top: -180px;
   }
   .datos-ninos {
     margin-top: 160px;
@@ -941,7 +939,7 @@ body {
     margin-left: -140px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /************************************************ Seccion Portada ************************************************/
   .header-titulo {
     color: rgb(218, 173, 62);
@@ -999,7 +997,7 @@ body {
     font-size: 30px;
     color: rgba(240, 248, 255, 0.603);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 120%;
+    margin-top: 100%;
     text-transform: uppercase;
   }
 }
@@ -1046,7 +1044,6 @@ body {
 .articulo2 {
   position: absolute;
   align-self: center;
-  margin-top: 140%;
   flex-direction: column;
   padding: 15px;
   display: flex;
@@ -1068,8 +1065,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(10, 10, 10, 0.753);
-  margin-top: 480px;
-  font-size: 16px;
+  margin-top: 550px;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -1081,7 +1078,7 @@ body {
 
 .sombreros1 {
   position: absolute;
-  top: -20%;
+  top: -30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(0, 0, 0, 0.651);
@@ -1161,7 +1158,7 @@ img:hover {
   width: 100%;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
   .header-titulo {
     color: darkgoldenrod;
     margin-top: 15%;
@@ -1170,7 +1167,7 @@ img:hover {
     position: absolute;
   }
   .header-form {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 45%;
     font-size: 20px;
     position: absolute;
@@ -1180,15 +1177,14 @@ img:hover {
     margin-top: 400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
     font-weight: 900;
   }
   a {
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 100px;
   }
   .nosotros {
     grid-column: 1;
@@ -1273,7 +1269,7 @@ img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(5, 5, 5, 0.616);
-    margin-top: 1000px;
+    margin-top: 1400px;
     font-size: 30px;
     font-weight: 800;
   }
@@ -1326,7 +1322,7 @@ img:hover {
   .articulo2 {
     box-sizing: border-box;
     display: inline;
-    margin-top: 400%;
+    margin-top: 500vh;
   }
   .columna {
     float: inline-start;
@@ -1469,7 +1465,7 @@ img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(5, 5, 5, 0.616);
-    margin-top: 1300px;
+    margin-top: 1000px;
     font-size: 40px;
     font-weight: 800;
   }
@@ -1551,7 +1547,7 @@ img:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /***************************************************** MUJER Mobile  ******************************************************/
   .header-mujer {
     position: relative;
@@ -1590,92 +1586,42 @@ img:hover {
     font-size: 120px;
     color: rgba(240, 248, 255, 0.39);
   }
+  .contenedor-img-mujer {
+    padding: 10px;
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+  }
+  figcaption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 65%;
+    padding: 35%;
+    color: azure;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .conjuntos-mujer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .foto1-mujer {
+    position: static;
+    display: inline-block;
+    text-align: center;
+  }
 }
-figure {
-  margin: 0;
-  display: inline-block;
-  position: relative;
-  padding: 7px;
-}
-
-figcaption {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 65%;
-  padding: 35%;
-  color: azure;
-  font-size: 25px;
-  margin-left: 50px;
-}
-
-.conjuntos-mujer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 300px;
-  font-size: 30px;
-}
-
-img {
-  width: 100%;
-}
-
-.foto1-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto2-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto3-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto4-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto5-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto6-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-.foto7-mujer {
-  position: static;
-  display: inline-block;
-  text-align: center;
-}
-
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
   .header-mujer {
     position: relative;
     display: block;
@@ -1722,13 +1668,13 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 600px;
     padding: 20px;
-    grid-gap: 40px;
+    grid-gap: 160px;
   }
   figure {
     margin: 0;
     display: inline-block;
     position: relative;
-    padding: 7px;
+    padding: 15px;
   }
   figcaption {
     position: absolute;
@@ -1871,7 +1817,7 @@ img {
     text-align: center;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   .header-hombre {
     position: relative;
     display: block;
@@ -1930,7 +1876,7 @@ img {
     text-align: center;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
   .header-hombre {
     position: relative;
     display: block;
@@ -1961,7 +1907,7 @@ img {
     grid-template-rows: repeat(4, 1fr);
     gap: 0px;
     align-self: center;
-    font-size: 30px;
+    font-size: 20px;
   }
   .title-hombre {
     display: flex;
@@ -1977,7 +1923,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 600px;
     padding: 20px;
-    grid-gap: 40px;
+    grid-gap: 160px;
   }
   figure {
     margin: 0;
@@ -2091,7 +2037,7 @@ img {
     text-align: center;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /*********************************************************Niños  *****************************************************/
   .header-ninos {
     position: relative;
@@ -2166,7 +2112,7 @@ img {
     text-align: center;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
   .header-ninos {
     position: relative;
     display: block;
@@ -2220,7 +2166,7 @@ img {
   }
   figcaption {
     position: absolute;
-    left: 50px;
+    left: 0px;
     bottom: 200px;
     width: 89%;
     padding: 11%;
@@ -2301,7 +2247,7 @@ img {
     position: absolute;
     left: 50px;
     bottom: 68px;
-    width: 89%;
+    width: 80%;
     padding: 11%;
     color: azure;
     font-size: 25px;
@@ -2310,7 +2256,7 @@ img {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     font-size: 30px;
   }
   img {
@@ -2323,8 +2269,8 @@ img {
   }
 }
 /************************************************  Nosotros-Contacto  **********************************************/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  body-nosotros {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -2381,9 +2327,10 @@ img {
     padding-top: 5px;
     padding-bottom: 40px;
   }
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 10px;
   }
   .boton-nos {
     height: 25px;
@@ -2415,19 +2362,18 @@ img {
     color: darkorange;
     margin-left: 10px;
   }
-  h2-nos {
+  .h2-nos {
     font-size: 16px;
     padding-bottom: 30px;
     color: #0e0e0e;
   }
-  p-nos {
+  .p-nos {
     font-size: 14px;
     color: #0e0e0e;
-    padding: 10px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
-  body-nosotros {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -2487,9 +2433,10 @@ img {
     padding-top: 45px;
     padding-bottom: 30px;
   }
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 5px;
   }
   .boton-nos {
     height: 25px;
@@ -2521,7 +2468,7 @@ img {
     color: darkorange;
     margin-left: 10px;
   }
-  h2-nos {
+  .h2-nos {
     font-size: 25px;
     margin-top: 50px;
     display: flex;
@@ -2529,14 +2476,13 @@ img {
     text-align: center;
     color: #0e0e0e;
   }
-  p-nos {
+  .p-nos {
     font-size: 16px;
     color: #0e0e0e;
-    padding: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  body-nosotros {
+  .body-nosotros {
     height: 95%;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
@@ -2596,9 +2542,10 @@ img {
     padding-top: 45px;
     padding-bottom: 30px;
   }
-  label-nosotros {
+  label {
     display: block;
     float: center;
+    padding: 10px;
   }
   .boton-nos {
     height: 25px;
@@ -2630,7 +2577,7 @@ img {
     color: darkorange;
     margin-left: 10px;
   }
-  h2-nos {
+  .h2-nos {
     font-size: 25px;
     margin-top: 50px;
     display: flex;
@@ -2638,9 +2585,8 @@ img {
     text-align: center;
     color: #0e0e0e;
   }
-  p-nos {
+  .p-nos {
     font-size: 16px;
     color: #0e0e0e;
-    padding: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -12,7 +12,7 @@
     <title>CONTACTO | Contactate con nosotros y conocenos mejor.</title>
   </head>
 
-  <body-nosotros>
+  <body class="body-nosotros">
     <div class="contacto_form">
       <div class="contacto-nosotros">
         <a href="../index.html"><h1>Cristopher Lucky</h1></a>
@@ -42,14 +42,16 @@
             </ul>
           </nav>
         </div>
-        <h2-nos>Escríbenos y en breve nos pondremos en contacto contigo</h2-nos>
+        <h2 class="h2-nos">
+          Escríbenos y en breve nos pondremos en contacto contigo
+        </h2>
 
         <form action="submeter-formulario.php" method="post">
-          <p-nos>
-            <label-nosotros for="nombre" class="colocar_nombre"
+          <p class="p-nos">
+            <label for="nombre" class="colocar_nombre"
               >Nombre
               <span class="obligatorio-nosotros">*</span>
-            </label-nosotros>
+            </label>
 
             <input
               class="imput-nosotros"
@@ -59,13 +61,13 @@
               required="obligatorio"
               placeholder="Escribe tu nombre"
             />
-          </p-nos>
+          </p>
 
-          <p-nos>
-            <label-nosotros for="email" class="colocar_email"
+          <p class="p-nos">
+            <label for="email" class="colocar_email"
               >Email
               <span class="obligatorio-nosotros">*</span>
-            </label-nosotros>
+            </label>
             <input
               class="imput-nosotros"
               type="email"
@@ -74,12 +76,10 @@
               required="obligatorio"
               placeholder="Escribe tu Email"
             />
-          </p-nos>
+          </p>
 
-          <p-nos>
-            <label-nosotros for="telefone" class="colocar_telefono"
-              >Teléfono
-            </label-nosotros>
+          <p class="p-nos">
+            <label for="telefone" class="colocar_telefono">Teléfono </label>
             <input
               class="imput-nosotros"
               type="tel"
@@ -87,13 +87,13 @@
               id="telefono"
               placeholder="Escribe tu teléfono"
             />
-          </p-nos>
+          </p>
 
-          <p-nos>
-            <label-nosotros for="asunto" class="colocar_asunto"
+          <p class="p-nos">
+            <label for="asunto" class="colocar_asunto"
               >Asunto
               <span class="obligatorio-nosotros">*</span>
-            </label-nosotros>
+            </label>
             <input
               class="imput-nosotros"
               type="text"
@@ -102,13 +102,13 @@
               required="obligatorio"
               placeholder="Escribe un asunto"
             />
-          </p-nos>
+          </p>
 
-          <p-nos>
-            <label-nosotros for="mensaje" class="colocar_mensaje"
+          <p class="p-nos">
+            <label for="mensaje" class="colocar_mensaje"
               >Mensaje
               <span class="obligatorio-nosotros">*</span>
-            </label-nosotros>
+            </label>
 
             <textarea
               name="introducir_mensaje"
@@ -117,7 +117,7 @@
               required="obligatorio"
               placeholder="Deja aquí tu comentario..."
             ></textarea>
-          </p-nos>
+          </p>
 
           <button
             class="boton-nos"
@@ -125,15 +125,15 @@
             name="enviar_formulario"
             id="enviar"
           >
-            <p-nos>Enviar</p-nos>
+            <p class="p-nos">Enviar</p>
           </button>
 
-          <p-nos class="aviso-nosotros">
+          <p class="p-nos">
             <span class="obligatorio-nosotros"> * </span>los campos son
             obligatorios.
-          </p-nos>
+          </p>
         </form>
       </div>
     </div>
-  </body-nosotros>
+  </body>
 </html>

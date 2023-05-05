@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /*********************************************************Niños  *****************************************************/
 
   .header-ninos {
@@ -76,7 +76,7 @@
     text-align: center;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
   .header-ninos {
     position: relative;
     display: block;
@@ -91,6 +91,7 @@
   }
   a {
     text-decoration: none;
+
     width: 100%;
   }
   .ninos-form {
@@ -131,7 +132,7 @@
 
   figcaption {
     position: absolute;
-    left: 50px;
+    left: 0px;
     bottom: 200px;
     width: 89%;
     padding: 11%;
@@ -216,7 +217,7 @@
     position: absolute;
     left: 50px;
     bottom: 68px;
-    width: 89%;
+    width: 80%;
     padding: 11%;
     color: azure;
     font-size: 25px;
@@ -226,7 +227,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     font-size: 30px;
   }
   img {
