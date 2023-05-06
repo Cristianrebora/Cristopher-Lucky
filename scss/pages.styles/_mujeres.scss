@@ -74,6 +74,42 @@
     display: inline-block;
     text-align: center;
   }
+  .ov-btn-slide-left {
+    background: #ffffff9a;
+    color: #242124c9;
+    border: 4px solid #a13c8b;
+    padding: 16px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-slide-left:hover {
+    color: #fff;
+  }
+  .ov-btn-slide-left::after {
+    content: "";
+    background: #bdab0fa9;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-left:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
 }
 
 //**********************************tablet******************************
@@ -165,6 +201,42 @@
     display: inline-block;
     text-align: center;
   }
+  .ov-btn-slide-left {
+    background: #ffffff9a;
+    color: #242124c9;
+    border: 4px solid #a13c8b;
+    padding: 16px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-slide-left:hover {
+    color: #fff;
+  }
+  .ov-btn-slide-left::after {
+    content: "";
+    background: #bdab0fa9;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-left:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -253,33 +325,40 @@
     display: inline-block;
     text-align: center;
   }
-
-  .foto2-mujer {
-    position: static;
+  .ov-btn-slide-left {
+    background: #ffffff9a;
+    color: #242124c9;
+    border: 4px solid #a13c8b;
+    padding: 16px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
     display: inline-block;
-    text-align: center;
   }
-
-  .foto3-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
+  .ov-btn-slide-left:hover {
+    color: #fff;
   }
-
-  .foto5-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
+  .ov-btn-slide-left::after {
+    content: "";
+    background: #bdab0fa9;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
   }
-
-  .foto6-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
-  }
-  .foto7-mujer {
-    position: static;
-    display: inline-block;
-    text-align: center;
+  .ov-btn-slide-left:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
   }
 }
