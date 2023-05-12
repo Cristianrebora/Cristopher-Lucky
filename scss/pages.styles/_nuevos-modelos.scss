@@ -7,6 +7,9 @@
     text-align: center;
     padding: 40px;
   }
+  .main{
+    background-color: rgba(97, 99, 100, 0.582);
+  }
   .h1-nuevos {
     text-align: center;
     margin-bottom: 20px;
@@ -82,9 +85,9 @@
     font-weight: bolder;
   }
 
-  button {
-    margin-bottom: 20px;
-  }
+ img{
+    border-radius: 20px;
+ }
 
   .ov-btn-slide-top {
     background: #fff;
@@ -96,7 +99,7 @@
     z-index: 1;
     overflow: hidden;
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 110px;
   }
   .ov-btn-slide-top:hover {
     color: #fff; /* color de fuente hover */
@@ -135,7 +138,7 @@
     font-weight: 900;
     margin-top: 150px;
     color: #03030e83;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: 300px;
   }
   .indicador2 {
@@ -144,6 +147,7 @@
     font-weight: 900;
     margin-top: 300px;
     color: #03030e83;
+    margin-left: 50px;
   }
   .indicador3 {
     font-size: 3rem;
@@ -151,7 +155,7 @@
     font-weight: 900;
     margin-top: 300px;
     color: #03030e83;
-    margin-left: -20px;
+    margin-left: 40px;
   }
 
   .zoom {
@@ -171,11 +175,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 2px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
     .contenedor-nuevos {
         background-color: rgba(75, 78, 77, 0.555);
+      }
+      .main{
+        background-color:rgba(97, 99, 100, 0.582);
       }
       .h1-nuevos {
         text-align: center;
@@ -188,7 +196,7 @@
         font-size: 3rem;
       }
       .h3-nuevos {
-        font-size: 0.6rem;
+        font-size: 0.9rem;
       }
       
       .nvm-form {
@@ -220,13 +228,22 @@
         text-align: center;
         margin-top: 300px;
         font-size: 30px;
+       
+        
         
       }
       .contenedor-img-nv {
         display: grid;
         grid-template-columns: repeat(2, 340px);
         grid-auto-rows: auto;
-        gap: 40px;
+        grid-gap: 80px;
+        max-width: 100%;
+        margin-top: 150px;
+       
+        
+      }
+      img{
+        border-radius: 20px;
         max-width: 100%;
       }
     
@@ -282,7 +299,9 @@
         -webkit-transition: all 0.35s;
         transition: all 0.35s;
       }
-    
+      button {
+        margin-bottom: 20px;
+      }
       .indicador {
         padding: 5px;
         font-size: 2rem;
@@ -327,12 +346,13 @@
 //********************************************escritorio*******************
 @media only screen and (min-width: 1200px) {
   .contenedor-nuevos {
-    background-color: azure;
+    background-color: rgba(151, 153, 153, 0.466);
   }
   .h1-nuevos {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 40px;
     font-size: 3rem;
+    margin-left: -50px;
   }
   .h2-nuevos {
     text-align: center;
@@ -340,7 +360,35 @@
     font-size: 3rem;
   }
   .h3-nuevos {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+  }
+  .nvm-form {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 40px;
+    position: absolute;
+  }
+
+  .nav-nuevosmodelos {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.842);
+  }
+  .list-nav-nvm li{
+    margin-top: 20%;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 40px;
+    align-self: center;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 40px;
+  }
+  .main{
+    background-color:rgba(97, 99, 100, 0.582);
   }
   .nav-nuevosmodelos {
     width: 100%;
@@ -349,6 +397,7 @@
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
+ 
   .grid-nuevos {
     display: grid;
     justify-content: center;
@@ -358,9 +407,15 @@
   }
   .contenedor-img-nv {
     display: grid;
-    grid-template-columns: repeat(4, 280px);
+    grid-template-columns: repeat(4, 260px);
     grid-auto-rows: auto;
-    gap: 40px;
+    gap: 60px;
+    margin-top: 150px;
+    
+  }
+  img{
+    border-radius: 20px;
+    max-width: 100%;
   }
 
   .info p {
@@ -414,6 +469,9 @@
     bottom: 0;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
+  }
+  button {
+    margin-bottom: 20px;
   }
 
   .indicador {
