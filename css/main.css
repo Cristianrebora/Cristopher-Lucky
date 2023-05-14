@@ -408,7 +408,7 @@ body {
     margin-top: -80px;
     margin-left: 0px;
   }
-  .contacto-footer-nvm {
+  .contacto-footer-compras-mj {
     position: relative;
     bottom: 0;
     width: 100%;
@@ -416,7 +416,7 @@ body {
     background-color: #f5f5f5;
     bottom: -5px;
   }
-  .footer-nvm {
+  .footer-compras-mj {
     height: 380px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
@@ -431,14 +431,14 @@ body {
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-nvm a {
+  .relleno-footer-compras-mj a {
     display: flex;
     justify-content: start;
     align-items: center;
     color: aliceblue;
     font-weight: 600;
   }
-  .mapa-nvm {
+  .mapa-compras-mj {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -447,28 +447,232 @@ body {
     margin-top: -170px;
     margin-right: 20px;
   }
-  .h3-nvm {
+  .h3-footer-compras-mj {
     font-size: 30px;
   }
-  .h4-nvm {
+  .h4-footer-compras-mj {
     color: darkorange;
     font-weight: 600;
     margin-top: -240px;
   }
-  .datos-nvm {
+  .datos-compras-mj {
     margin-top: 220px;
     display: flex;
     justify-content: end;
     text-align: end;
     margin-right: 60px;
   }
-  .datos-mail-nvm {
+  .datos-mail-compras-mj {
     color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: end;
   }
-  .domicilio-nvm {
+  .domicilio-compras-mj {
+    margin-top: -160px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-hm {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -5px;
+  }
+  .footer-compras-hm {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-hm a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-hm {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -170px;
+    margin-right: 20px;
+  }
+  .h3-footer-compras-hm {
+    font-size: 30px;
+  }
+  .h4-footer-compras-hm {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -240px;
+  }
+  .datos-compras-hm {
+    margin-top: 220px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-hm {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-hm {
+    margin-top: -160px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-ninos {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -5px;
+  }
+  .footer-compras-ninos {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-ninos a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-ninos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -170px;
+    margin-right: 20px;
+  }
+  .h3-footer-compras-ninos {
+    font-size: 30px;
+  }
+  .h4-footer-compras-ninos {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -240px;
+  }
+  .datos-compras-ninos {
+    margin-top: 220px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-ninos {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-ninos {
+    margin-top: -160px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-nvm {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -5px;
+  }
+  .footer-compras-nvm {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-nvm a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-nvm {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -170px;
+    margin-right: 20px;
+  }
+  .h3-footer-compras-nvm {
+    font-size: 30px;
+  }
+  .h4-footer-compras-nvm {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -240px;
+  }
+  .datos-compras-nvm {
+    margin-top: 220px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-nvm {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-nvm {
     margin-top: -160px;
     margin-left: 0px;
     display: flex;
@@ -526,11 +730,11 @@ body {
     padding: 20px;
     margin-top: -190px;
   }
-  h3 {
+  .h3 {
     font-size: 40px;
     padding: 2rem;
   }
-  h4 {
+  .h4 {
     color: darkorange;
     font-weight: 600;
     margin-top: -250px;
@@ -736,14 +940,14 @@ body {
     margin-top: -80px;
     margin-left: 0px;
   }
-  .contacto-footer-nvm {
+  .contacto-footer-compras-mj {
     position: relative;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
     bottom: -30px;
   }
-  .footer-nvm {
+  .footer-compras-mj {
     height: 380px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
@@ -758,14 +962,14 @@ body {
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-nvm a {
+  .relleno-footer-compras-mj a {
     display: flex;
     justify-content: start;
     align-items: center;
     color: aliceblue;
     font-weight: 600;
   }
-  .mapa-nvm {
+  .mapa-compras-mj {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -774,28 +978,229 @@ body {
     margin-top: -190px;
     margin-right: 40px;
   }
-  .h3-nvm {
+  .h3-footer-compras-mj {
     font-size: 30px;
   }
-  .h4-nvm {
+  .h4-footer-compras-mj {
     color: darkorange;
     font-weight: 600;
-    margin-top: -260px;
+    margin-top: -220px;
   }
-  .datos-nvm {
+  .datos-compras-mj {
     margin-top: 200px;
     display: flex;
     justify-content: end;
     text-align: end;
     margin-right: 60px;
   }
-  .datos-mail-nvm {
+  .datos-mail-compras-mj {
     color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: end;
   }
-  .domicilio-nvm {
+  .domicilio-compras-mj {
+    margin-top: -120px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-hm {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -30px;
+  }
+  .footer-compras-hm {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-hm a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-hm {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -190px;
+    margin-right: 40px;
+  }
+  .h3-footer-compras-hm {
+    font-size: 30px;
+  }
+  .h4-footer-compras-hm {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -260px;
+  }
+  .datos-compras-hm {
+    margin-top: 200px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-hm {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-hm {
+    margin-top: -120px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-ninos {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -30px;
+  }
+  .footer-compras-ninos {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-ninos a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-ninos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -190px;
+    margin-right: 40px;
+  }
+  .h3-footer-compras-ninos {
+    font-size: 30px;
+  }
+  .h4-footer-compras-ninos {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -260px;
+  }
+  .datos-compras-ninos {
+    margin-top: 200px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-ninos {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-ninos {
+    margin-top: -120px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 40px;
+  }
+  .contacto-footer-compras-nvm {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    bottom: -30px;
+  }
+  .footer-compras-nvm {
+    height: 380px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-nvm a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  .mapa-compras-nvm {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 160px;
+    padding: 5px;
+    margin-top: -190px;
+    margin-right: 40px;
+  }
+  .h3-footer-compras-nvm {
+    font-size: 30px;
+  }
+  .h4-footer-compras-nvm {
+    color: darkorange;
+    font-weight: 600;
+    margin-top: -260px;
+  }
+  .datos-compras-nvm {
+    margin-top: 200px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 60px;
+  }
+  .datos-mail-compras-nvm {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .domicilio-compras-nvm {
     margin-top: -120px;
     margin-left: 0px;
     display: flex;
@@ -843,6 +1248,7 @@ body {
     color: aliceblue;
     font-weight: 600px;
     margin-left: 5px;
+    text-decoration: none;
   }
   .mapa {
     display: flex;
@@ -851,11 +1257,11 @@ body {
     margin-left: 150px;
     padding: 20px;
   }
-  h3 {
+  .h3 {
     font-size: 40px;
     padding: 2rem;
   }
-  h4 {
+  .h4 {
     color: darkorange;
     font-weight: 600px;
     margin-top: 30px;
@@ -1075,22 +1481,22 @@ body {
     margin-top: -80px;
     margin-left: -140px;
   }
-  .lista-footer a {
+  .lista-footer-compras-mj a {
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     text-decoration: none;
-    row-gap: 80px;
+    row-gap: 100px;
   }
-  .contacto-footer-nvm {
+  .contacto-footer-compras-mj {
     position: relative;
     bottom: -30px;
     width: 100%;
     height: 300px;
     background-color: white;
   }
-  .footer-nvm {
+  .footer-compras-mj {
     height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
@@ -1105,7 +1511,7 @@ body {
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-nvm a {
+  .relleno-footer-compras-mj a {
     display: flex;
     justify-content: start;
     text-align: center;
@@ -1115,38 +1521,256 @@ body {
     padding: 2px;
     font-size: 20px;
   }
-  .mapa-nvm {
+  .mapa-compras-mj {
     display: flex;
     justify-content: end;
     align-items: end;
     margin-left: 50px;
     margin-bottom: 40px;
   }
-  .h3-nvm {
+  .h3-footer-compras-mj {
     font-size: 40px;
     margin-left: 60px;
   }
-  .h4-nvm {
+  .h4-footer-compras-mj {
     color: darkorange;
     font-weight: 800;
     margin-top: 30px;
     font-size: 20px;
     margin-right: 40px;
   }
-  .datos-nvm {
+  .datos-compras-mj {
     margin-top: 160px;
     display: flex;
     justify-content: start;
     text-align: start;
     margin-left: -40px;
   }
-  .datos-mail-nvm {
+  .datos-mail-compras-mj {
     margin-top: -30px;
     margin-left: -40px;
   }
-  .domicilio-nvm {
+  .domicilio-compras-mj {
     margin-top: -80px;
     margin-left: -140px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .lista-footer-compras-hm {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    row-gap: 40px;
+  }
+  .contacto-footer-compras-hm {
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+  }
+  .footer-compras-hm {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-hm a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: start;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .mapa-compras-hm {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .h3-footer-compras-hm {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .h4-footer-compras-hm {
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .datos-compras-hm {
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+  }
+  .datos-mail-compras-hm {
+    margin-top: -30px;
+    margin-left: -40px;
+  }
+  .domicilio-compras-hm {
+    margin-top: -80px;
+    margin-left: -140px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .contacto-footer-compras-ninos {
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+  }
+  .footer-compras-ninos {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-ninos a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: start;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 2px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .mapa-compras-ninos {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+  .h3-footer-compras-ninos {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .h4-footer-compras-ninos {
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .datos-compras-ninos {
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+  }
+  .datos-mail-compras-ninos {
+    margin-top: -30px;
+    margin-left: -40px;
+  }
+  .domicilio-compras-ninos {
+    margin-top: -80px;
+    margin-left: -140px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .contacto-footer-compras-nvm {
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+  }
+  .footer-compras-nvm {
+    height: 350px;
+    line-height: 50px;
+    background: rgba(31, 20, 20, 0.973);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #141313;
+  }
+  .relleno-footer-compras-nvm a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: start;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 2px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .mapa-compras-nvm {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+  .h3-footer-compras-nvm {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .h4-footer-compras-nvm {
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .datos-compras-nvm {
+    margin-top: 160px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin-left: -40px;
+  }
+  .datos-mail-compras-nvm {
+    margin-top: -30px;
+    margin-left: -40px;
+  }
+  .domicilio-compras-nvm {
+    margin-top: -80px;
+    margin-left: -140px;
+  }
+  a {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
@@ -1494,13 +2118,13 @@ body {
 @media only screen and (min-width: 1200px) {
   .header-titulo {
     color: #b8860b;
-    bottom: 440px;
+    bottom: 540px;
     margin-left: 30%;
     font-size: 60px;
     position: absolute;
   }
   .header-form {
-    margin-top: 220px;
+    margin-top: 260px;
     margin-left: 45%;
     font-size: 20px;
     position: absolute;
@@ -3118,7 +3742,7 @@ body {
     margin-top: 300px;
   }
   .indicador2 {
-    font-size: 3rem;
+    font-size: 1rem;
     padding: 5px;
     font-weight: 900;
     margin-top: 300px;
@@ -3364,9 +3988,9 @@ body {
   }
   .contenedor-img-nv {
     display: grid;
-    grid-template-columns: repeat(4, 260px);
+    grid-template-columns: repeat(4, 280px);
     grid-auto-rows: auto;
-    gap: 60px;
+    margin-left: 20px;
     margin-top: 150px;
   }
   img {
@@ -3465,7 +4089,7 @@ body {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
-  .contenedor-nuevos {
+  .contenedor-compras-mj {
     background-color: rgba(240, 255, 255, 0.445);
     position: relative;
     display: block;
@@ -3476,33 +4100,34 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-mj {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-mj {
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
+    color: #d47990;
   }
-  .h3-nuevos {
+  .h4-compras-mj {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .nvm-form {
+  .compras-mj-form {
     display: none;
   }
-  .nav-nuevosmodelos {
+  .nav--compras-mj {
     width: 100%;
     padding: 15px;
     gap: 20px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.26);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-mj li {
     margin-top: 20%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3511,7 +4136,7 @@ body {
     align-self: center;
     font-size: 30px;
   }
-  .title-nvm {
+  .title-compras-mj {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -3520,7 +4145,7 @@ body {
     font-size: 120px;
     color: rgba(240, 248, 255, 0.39);
   }
-  .grid-nuevos {
+  .grid-compras-mj {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
@@ -3636,39 +4261,39 @@ body {
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
-  .contenedor-nuevos {
+  .contenedor-compras-mj {
     background-color: rgba(75, 78, 77, 0.555);
   }
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-mj {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-mj {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h3-nuevos {
+  .h4-compras-mj {
     font-size: 0.9rem;
   }
-  .nvm-form {
+  .compras-mj-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-mj {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-mj li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -3678,14 +4303,14 @@ body {
     font-size: 30px;
     width: 100%;
   }
-  .grid-nuevos {
+  .grid-compras-mj {
     display: grid;
     justify-content: center;
     text-align: center;
     margin-top: 300px;
     font-size: 30px;
   }
-  .contenedor-img-nv {
+  .contenedor-img-compras-mj {
     display: grid;
     grid-template-columns: repeat(2, 340px);
     grid-auto-rows: auto;
@@ -3789,37 +4414,37 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .contenedor-nuevos {
+  .contenedor-compras-mj {
     background-color: rgba(151, 153, 153, 0.466);
   }
-  .h1-nuevos {
+  .h1-compras-mj {
     text-align: center;
     margin-top: 40px;
     font-size: 3rem;
     margin-left: -50px;
   }
-  .h2-nuevos {
+  .h2-compras-mj {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h3-nuevos {
-    font-size: 0.9rem;
+  .h4-compras-mj {
+    font-size: 1rem;
   }
-  .nvm-form {
+  .compras-mj-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-mj {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-mj li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -3833,20 +4458,20 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .nav-nuevosmodelos {
+  .nav-compras-mj {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .grid-nuevos {
+  .grid-compras-mj {
     display: grid;
     justify-content: center;
     text-align: center;
     margin-top: 300px;
     font-size: 30px;
   }
-  .contenedor-img-nv {
+  .contenedor-img-compras-mj {
     display: grid;
     grid-template-columns: repeat(4, 260px);
     grid-auto-rows: auto;
@@ -3949,7 +4574,7 @@ body {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
-  .contenedor-nuevos {
+  .contenedor-compras-hm {
     background-color: rgba(240, 255, 255, 0.445);
     position: relative;
     display: block;
@@ -3960,33 +4585,33 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-hm {
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
   }
-  .h3-nuevos {
+  .h4-compras-hm {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .nvm-form {
+  .compras-hm-form {
     display: none;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-hm {
     width: 100%;
     padding: 15px;
     gap: 20px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.26);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-hm li {
     margin-top: 20%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3995,7 +4620,7 @@ body {
     align-self: center;
     font-size: 30px;
   }
-  .title-nvm {
+  .title-compras-hm {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -4004,7 +4629,7 @@ body {
     font-size: 120px;
     color: rgba(240, 248, 255, 0.39);
   }
-  .grid-nuevos {
+  .grid-compras-hm {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
@@ -4016,6 +4641,7 @@ body {
   .info {
     background-color: rgba(231, 222, 169, 0.7137254902);
     border-radius: 20px;
+    margin: 5px;
   }
   .info p {
     padding: 5px;
@@ -4049,11 +4675,11 @@ body {
     margin-left: 110px;
   }
   .ov-btn-slide-top:hover {
-    color: #fff; /* color de fuente hover */
+    color: #fff;
   }
   .ov-btn-slide-top::after {
     content: "";
-    background: #d47990; /* color de fondo hover */
+    background: #d47990;
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
@@ -4120,39 +4746,39 @@ body {
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
-  .contenedor-nuevos {
+  .contenedor-compras-hm {
     background-color: rgba(75, 78, 77, 0.555);
   }
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h3-nuevos {
+  .h4-compras-hm {
     font-size: 0.9rem;
   }
-  .nvm-form {
+  .compras-hm-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-hm {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-hm li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -4162,14 +4788,14 @@ body {
     font-size: 30px;
     width: 100%;
   }
-  .grid-nuevos {
+  .grid-compras-hm {
     display: grid;
     justify-content: center;
     text-align: center;
     margin-top: 300px;
     font-size: 30px;
   }
-  .contenedor-img-nv {
+  .contenedor-img-compras-hm {
     display: grid;
     grid-template-columns: repeat(2, 340px);
     grid-auto-rows: auto;
@@ -4264,6 +4890,7 @@ body {
   .info {
     background-color: rgba(231, 222, 169, 0.7137254902);
     border-radius: 20px;
+    margin: 5px;
   }
   .zoom {
     transition: transform 0.2s;
@@ -4273,7 +4900,7 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .contenedor-nuevos {
+  .contenedor-compras-hm {
     background-color: rgba(151, 153, 153, 0.466);
   }
   .h1-compras-hm {
@@ -4290,20 +4917,20 @@ body {
   .h4-compras-hm {
     font-size: 0.9rem;
   }
-  .nvm-form {
+  .compras-hm-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-hm {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-hm li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -4317,7 +4944,7 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .nav-nuevosmodelos {
+  .nav-compras-hm {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
@@ -4424,6 +5051,7 @@ body {
   .info {
     background-color: rgba(231, 222, 169, 0.7137254902);
     border-radius: 20px;
+    margin: 5px;
   }
   .zoom {
     transition: transform 0.2s;
@@ -4433,7 +5061,7 @@ body {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
-  .contenedor-nuevos {
+  .contenedor-compras-ninos {
     background-color: rgba(240, 255, 255, 0.445);
     position: relative;
     display: block;
@@ -4444,33 +5072,33 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-ninos {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-ninos {
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
   }
-  .h3-nuevos {
+  .h3-compras-ninos {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .nvm-form {
+  .compras-ninos-form {
     display: none;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-ninos {
     width: 100%;
     padding: 15px;
     gap: 20px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.26);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-ninos li {
     margin-top: 20%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -4479,7 +5107,7 @@ body {
     align-self: center;
     font-size: 30px;
   }
-  .title-nvm {
+  .title-compras-ninos {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -4488,7 +5116,7 @@ body {
     font-size: 120px;
     color: rgba(240, 248, 255, 0.39);
   }
-  .grid-nuevos {
+  .grid-compras-ninos {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
@@ -4604,39 +5232,39 @@ body {
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
-  .contenedor-nuevos {
+  .contenedor-compras-ninos {
     background-color: rgba(75, 78, 77, 0.555);
   }
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .h1-nuevos {
+  .h1-compras-ninos {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h2-nuevos {
+  .h2-compras-ninos {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h3-nuevos {
+  .h3-compras-ninos {
     font-size: 0.9rem;
   }
-  .nvm-form {
+  .compras-ninos-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-ninos {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-ninos li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -4646,14 +5274,14 @@ body {
     font-size: 30px;
     width: 100%;
   }
-  .grid-nuevos {
+  .grid-compras-ninos {
     display: grid;
     justify-content: center;
     text-align: center;
     margin-top: 300px;
     font-size: 30px;
   }
-  .contenedor-img-nv {
+  .contenedor-img-compras-ninos {
     display: grid;
     grid-template-columns: repeat(2, 340px);
     grid-auto-rows: auto;
@@ -4757,37 +5385,37 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .contenedor-nuevos {
+  .contenedor-compras-ninos {
     background-color: rgba(151, 153, 153, 0.466);
   }
-  .h1-nuevos {
+  .h1-compras-ninos {
     text-align: center;
     margin-top: 40px;
     font-size: 3rem;
     margin-left: -50px;
   }
-  .h2-nuevos {
+  .h2-compras-ninos {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
-  .h3-nuevos {
+  .h3-compras-ninos {
     font-size: 0.9rem;
   }
-  .nvm-form {
+  .compras-ninos-form {
     display: flex;
     margin-top: 10%;
     margin-left: 42%;
     font-size: 40px;
     position: absolute;
   }
-  .nav-nuevosmodelos {
+  .nav-compras-ninos {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .list-nav-nvm li {
+  .list-nav-compras-ninos li {
     margin-top: 20%;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -4801,20 +5429,20 @@ body {
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
-  .nav-nuevosmodelos {
+  .nav-compras-ninos {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
-  .grid-nuevos {
+  .grid-compras-ninos {
     display: grid;
     justify-content: center;
     text-align: center;
     margin-top: 300px;
     font-size: 30px;
   }
-  .contenedor-img-nv {
+  .contenedor-img-compras-ninos {
     display: grid;
     grid-template-columns: repeat(4, 260px);
     grid-auto-rows: auto;
