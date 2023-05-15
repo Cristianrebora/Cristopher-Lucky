@@ -1954,11 +1954,12 @@ body {
   .header-titulo {
     color: darkgoldenrod;
     margin-top: -125rem;
-    margin-left: 80px;
     font-size: 20px;
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .header-form {
     margin-top: 200px;
@@ -1973,6 +1974,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     font-weight: 900;
     margin-left: 40px;
+    gap: 30px;
+    width: 100%;
   }
   a {
     display: block;
@@ -2124,7 +2127,7 @@ body {
     position: absolute;
   }
   .header-form {
-    margin-top: 160px;
+    margin-top: 240px;
     margin-left: 45%;
     font-size: 20px;
     position: absolute;
@@ -4707,11 +4710,10 @@ body {
   }
   .indicador1 {
     font-size: 1rem;
-    padding: 5px;
+    padding: 0px;
     font-weight: 900;
     margin-top: 150px;
     color: rgba(3, 3, 14, 0.5137254902);
-    margin: 70px;
     margin-top: 300px;
   }
   .indicador2 {
@@ -5089,7 +5091,7 @@ body {
     margin-top: 50px;
     font-size: 2rem;
   }
-  .h3-compras-ninos {
+  .h4-compras-ninos {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;

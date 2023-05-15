@@ -196,11 +196,12 @@ img:hover {
   .header-titulo {
     color: darkgoldenrod;
     margin-top: -125rem;
-    margin-left: 80px;
     font-size: 20px;
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .header-form {
     margin-top: 200px;
@@ -215,6 +216,8 @@ img:hover {
     grid-template-columns: repeat(4, 1fr);
     font-weight: 900;
     margin-left: 40px;
+    gap: 30px;
+    width: 100%;
     
   }
   a {
@@ -378,7 +381,7 @@ img:hover {
     position: absolute;
   }
   .header-form {
-    margin-top: 160px;
+    margin-top: 240px;
     margin-left: 45%;
     font-size: 20px;
     position: absolute;
