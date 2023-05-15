@@ -7,19 +7,23 @@
     text-align: center;
     padding: 40px;
   }
+
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
+
   .h1-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
+
   .h2-compras-hm {
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
   }
+
   .h4-compras-hm {
     font-size: 0.9rem;
     display: flex;
@@ -30,6 +34,7 @@
   .compras-hm-form {
     display: none;
   }
+
   .nav-compras-hm {
     width: 100%;
     padding: 15px;
@@ -37,6 +42,7 @@
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.26);
   }
+
   .list-nav-compras-hm li {
     margin-top: 20%;
     display: grid;
@@ -46,6 +52,7 @@
     align-self: center;
     font-size: 30px;
   }
+
   .title-compras-hm {
     display: flex;
     justify-content: center;
@@ -55,19 +62,20 @@
     font-size: 120px;
     color: rgba(240, 248, 255, 0.39);
   }
+
   .grid-compras-hm {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat (1fr 1fr);
+    grid-template-columns: repeat (1fr auto);
     grid-template-rows: auto;
     grid-gap: 20px;
   }
+
   .info {
     background-color: #e7dea9b6;
     border-radius: 20px;
-    margin: 5px;
   }
 
   .info p {
@@ -76,11 +84,13 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
   }
+
   .precio p:first-child {
     text-decoration: line-through;
     color: red;
     font-size: 1rem;
   }
+
   .precio {
     display: flex;
     justify-content: space-between;
@@ -103,9 +113,11 @@
     display: inline-block;
     margin-left: 110px;
   }
+
   .ov-btn-slide-top:hover {
     color: #fff;
   }
+
   .ov-btn-slide-top::after {
     content: "";
     background: #d47990;
@@ -120,6 +132,7 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
   .ov-btn-slide-top:hover::after {
     left: 0;
     right: 0;
@@ -134,15 +147,17 @@
     font-size: 2rem;
     text-align: center;
   }
+
   .indicador1 {
-    font-size: 3rem;
+    font-size: 1rem;
     padding: 5px;
     font-weight: 900;
     margin-top: 150px;
     color: #03030e83;
-    margin-left: 70px;
+    margin: 70px;
     margin-top: 300px;
   }
+
   .indicador2 {
     font-size: 3rem;
     padding: 5px;
@@ -151,8 +166,9 @@
     color: #03030e83;
     margin-left: 50px;
   }
+
   .indicador3 {
-    font-size: 3rem;
+    font-size: 1rem;
 
     font-weight: 900;
     margin-top: 300px;
@@ -169,9 +185,11 @@
   .zoom:hover {
     transform: scale(1.5);
   }
+
   section {
     margin-bottom: 40px;
   }
+
   button {
     display: flex;
     justify-content: center;
@@ -180,23 +198,28 @@
     margin-bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
   .contenedor-compras-hm {
     background-color: rgba(75, 78, 77, 0.555);
   }
+
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
+
   .h1-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
+
   .h2-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
+
   .h4-compras-hm {
     font-size: 0.9rem;
   }
@@ -208,12 +231,14 @@
     font-size: 40px;
     position: absolute;
   }
+
   .nav-compras-hm {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.842);
   }
+
   .list-nav-compras-hm li {
     margin-top: 20%;
     display: flex;
@@ -224,6 +249,7 @@
     font-size: 30px;
     width: 100%;
   }
+
   .grid-compras-hm {
     display: grid;
     justify-content: center;
@@ -231,6 +257,7 @@
     margin-top: 300px;
     font-size: 30px;
   }
+
   .contenedor-img-compras-hm {
     display: grid;
     grid-template-columns: repeat(2, 340px);
@@ -239,6 +266,7 @@
     max-width: 100%;
     margin-top: 150px;
   }
+
   img {
     border-radius: 20px;
     max-width: 100%;
@@ -249,6 +277,7 @@
     font-size: 0.7rem;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .precio p:first-child {
     text-decoration: line-through;
     color: red;
@@ -272,12 +301,16 @@
     overflow: hidden;
     display: inline-block;
   }
+
   .ov-btn-slide-top:hover {
-    color: #fff; /* color de fuente hover */
+    color: #fff;
+    /* color de fuente hover */
   }
+
   .ov-btn-slide-top::after {
     content: "";
-    background: #d47990; /* color de fondo hover */
+    background: #d47990;
+    /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
@@ -289,6 +322,7 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
   .ov-btn-slide-top:hover::after {
     left: 0;
     right: 0;
@@ -297,14 +331,17 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
   button {
     margin-bottom: 20px;
   }
+
   .indicador {
     padding: 5px;
     font-size: 2rem;
     text-align: center;
   }
+
   .indicador1 {
     font-size: 3rem;
     padding: 5px;
@@ -314,6 +351,7 @@
     margin-left: 20px;
     margin-top: 300px;
   }
+
   .indicador2 {
     font-size: 3rem;
     padding: 5px;
@@ -321,6 +359,7 @@
     margin-top: 300px;
     color: #03030e83;
   }
+
   .indicador3 {
     font-size: 3rem;
 
@@ -329,11 +368,13 @@
     color: #03030e83;
     margin-left: -20px;
   }
+
   .info {
     background-color: #e7dea9b6;
     border-radius: 20px;
     margin: 5px;
   }
+
   .zoom {
     transition: transform 0.2s;
   }
@@ -342,25 +383,30 @@
     transform: scale(1.5);
   }
 }
+
 //********************************************escritorio*******************
 @media only screen and (min-width: 1200px) {
   .contenedor-compras-hm {
     background-color: rgba(151, 153, 153, 0.466);
   }
+
   .h1-compras-hm {
     text-align: center;
     margin-top: 40px;
     font-size: 3rem;
     margin-left: -50px;
   }
+
   .h2-compras-hm {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
   }
+
   .h4-compras-hm {
     font-size: 0.9rem;
   }
+
   .compras-hm-form {
     display: flex;
     margin-top: 10%;
@@ -387,9 +433,11 @@
     width: 100%;
     margin-left: 40px;
   }
+
   .main {
     background-color: rgba(97, 99, 100, 0.582);
   }
+
   .nav-compras-hm {
     width: 100%;
     padding: 15px;
@@ -405,6 +453,7 @@
     margin-top: 300px;
     font-size: 30px;
   }
+
   .contenedor-img-compras-hm {
     display: grid;
     grid-template-columns: repeat(4, 260px);
@@ -412,6 +461,7 @@
     gap: 60px;
     margin-top: 150px;
   }
+
   img {
     border-radius: 20px;
     max-width: 100%;
@@ -422,11 +472,13 @@
     font-size: 0.7rem;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .precio p:first-child {
     text-decoration: line-through;
     color: red;
     font-size: 1rem;
   }
+
   .precio {
     display: flex;
     justify-content: space-between;
@@ -444,12 +496,16 @@
     overflow: hidden;
     display: inline-block;
   }
+
   .ov-btn-slide-top:hover {
-    color: #fff; /* color de fuente hover */
+    color: #fff;
+    /* color de fuente hover */
   }
+
   .ov-btn-slide-top::after {
     content: "";
-    background: #d47990; /* color de fondo hover */
+    background: #d47990;
+    /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
@@ -461,6 +517,7 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
   .ov-btn-slide-top:hover::after {
     left: 0;
     right: 0;
@@ -469,6 +526,7 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
+
   button {
     margin-bottom: 20px;
   }
@@ -478,6 +536,7 @@
     font-size: 2rem;
     text-align: center;
   }
+
   .indicador1 {
     font-size: 3rem;
     padding: 5px;
@@ -487,6 +546,7 @@
     margin-left: 20px;
     margin-top: 300px;
   }
+
   .indicador2 {
     font-size: 3rem;
     padding: 5px;
@@ -494,6 +554,7 @@
     margin-top: 300px;
     color: #03030e83;
   }
+
   .indicador3 {
     font-size: 3rem;
 
@@ -508,6 +569,7 @@
     border-radius: 20px;
     margin: 5px;
   }
+
   .zoom {
     transition: transform 0.2s;
   }
