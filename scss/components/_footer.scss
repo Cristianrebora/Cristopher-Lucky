@@ -106,6 +106,16 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-hombre {
+    width:25px;
+    margin-left:20px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-hombre {
     display: flex;
     justify-content: end;
@@ -116,41 +126,43 @@
   }
   .h3-hombre {
     font-size: 40px;
-    padding: 2rem;
+    
   }
   .h4-hombre {
     color: darkorange;
     font-weight: 600;
-    margin-top: -250px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos-hombre {
-    margin-top: 180px;
+    color: darkorange;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   .datos-mail-hombre {
-    margin-top: -30px;
-    color: #f5f5f5;
-  }
-
+    margin-top: -70px;
+    
+}
   .domicilio-hombre {
-    margin-top: -80px;
+    margin-top: -60px;
     margin-left: 0px;
-  }
+ }
   /********************************************************FOOTER MUJER ***********************************************/
 
   .contacto-footer-mujer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -600px !important;
+    bottom: -5px;
   }
 
   .footer-mujer {
-    height: 380px;
+    height: 340px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
@@ -171,36 +183,48 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-mujer {
+    width:25px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-mujer {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 0px;
     padding: 5px;
     margin-top: -160px;
   }
   .h3-mujer {
-    font-size: 30px;
-    padding: 2rem;
+    font-size: 40px;
+   
   }
   .h4-mujer {
     color: darkorange;
     font-weight: 600;
-    margin-top: -240px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 140px;
   }
   .datos-mujer {
-    margin-top: 180px;
+    margin-top: 55px;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   .datos-mail-mujer {
-    margin-top: -5px;
-    color: #f5f5f5;
+    margin-top: -70px;
+   
   }
 
   .domicilio-mujer {
-    margin-top: -80px;
+    margin-top: -60px;
     margin-left: 0px;
   }
   /********************************************** Footer Niños ********************************************/
@@ -235,36 +259,49 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-ninos {
+    width:25px;
+    margin-left:20px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-ninos {
     display: flex;
     justify-content: end;
     align-items: center;
     margin-left: 150px;
     padding: 20px;
-    margin-top: -200px;
+    margin-top: -160px;
   }
   .h3-ninos {
     font-size: 40px;
-    padding: 2rem;
+    
   }
   .h4-ninos {
     color: darkorange;
     font-weight: 600;
-    margin-top: -220px;
+    margin-top: -280px;
+    position: absolute;
+   margin-left: 80px;
   }
   .datos-ninos {
-    margin-top: 180px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
+   
   }
   .datos-mail-ninos {
-    margin-top: -10px;
-    color: #f5f5f5;
+    margin-top: -70px;
+   
   }
 
   .domicilio-ninos {
-    margin-top: -80px;
+    margin-top: -60px;
     margin-left: 0px;
   }
   //********************************************** Footer compras mujer********************************************/
@@ -299,44 +336,47 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-compras-mj {
+    width:25px;
+    margin-left:20px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-compras-mj {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -170px;
-    margin-right: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-top: -160px;
   }
   .h3-footer-compras-mj {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-mj {
     color: darkorange;
     font-weight: 600;
-    margin-top: -240px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos-compras-mj {
-    margin-top: 220px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-mj {
-    color: #f5f5f5;
+    color: darkorange;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
   }
-
+  .datos-mail-compras-mj {
+    margin-top: -70px;
+}
   .domicilio-compras-mj {
-    margin-top: -160px;
+    margin-top: -60px;
     margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
   }
   //********************************************** Footer compras hombre********************************************/
   .contacto-footer-compras-hm {
@@ -370,44 +410,48 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-compras-hm {
+    width:25px;
+    margin-left:20px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-compras-hm {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -170px;
-    margin-right: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-top: -160px;
   }
   .h3-footer-compras-hm {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-hm {
     color: darkorange;
     font-weight: 600;
-    margin-top: -240px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos-compras-hm {
-    margin-top: 220px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-hm {
-    color: #f5f5f5;
+    color: darkorange;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+  }
+  .datos-mail-compras-hm {
+    margin-top: -70px;
   }
 
   .domicilio-compras-hm {
-    margin-top: -160px;
+    margin-top: -60px;
     margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
   }
     //********************************************** Footer compras niños********************************************/
  
@@ -442,44 +486,48 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-compras-ninos {
+    width:25px;
+    margin-left:70px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-compras-ninos {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -170px;
-    margin-right: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-top: -160px;
   }
   .h3-footer-compras-ninos {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-ninos {
     color: darkorange;
     font-weight: 600;
-    margin-top: -240px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos-compras-ninos {
-    margin-top: 220px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-ninos {
-    color: #f5f5f5;
+    color: darkorange;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+  }
+  .datos-mail-compras-ninos {
+    margin-top: -70px;
   }
 
   .domicilio-compras-ninos {
-    margin-top: -160px;
+    margin-top: -60px;
     margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
   }
   //********************************************** Footer compras ESPECIALES********************************************/
  
@@ -514,63 +562,63 @@
     color: aliceblue;
     font-weight: 600;
   }
+  .social-nvm {
+    width:25px;
+    margin-left:70px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .mapa-compras-nvm {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -170px;
-    margin-right: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-top: -160px;
   }
   .h3-footer-compras-nvm{
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-nvm {
     color: darkorange;
     font-weight: 600;
-    margin-top: -240px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos-compras-nvm {
-    margin-top: 220px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-nvm {
-    color: #f5f5f5;
+    color: darkorange;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+  }
+  .datos-mail-compras-nvm {
+    margin-top: -70px;
   }
 
   .domicilio-compras-nvm {
-    margin-top: -160px;
+    margin-top: -60px;
     margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
+
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
-  .lista-footer li {
-    display:block;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    text-decoration: none;
-    row-gap: 20px;
-    text-decoration: none;
-    color: darkorange;
-  }
+ 
   
-  .social img{
-   width:25px;
-   
-     margin-left: -170px;
-    
+  .social {
+    width:35px;
+    margin-left:-40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
     }
 
   .contacto-footer {
@@ -612,12 +660,12 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left:-40px;
-    padding: 20px;
+    margin-left:60px;
+   
   }
   .h3 {
     font-size: 40px;
-    padding: 2rem;
+    margin-left: 60px;
     
   }
   .h4 {
@@ -625,7 +673,8 @@
     font-weight: 600px;
     margin-top: 30px;
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 0px;
+    display: flex;
   }
   .datos {
     margin-top: 270px;
@@ -640,36 +689,44 @@
     margin-left: -760px;
     
   }
-  .contenedor-datos{
-    gap: 15px;
-    }
+  
 
   .domicilio {
     margin-top: -100px;
     margin-left: -720px;
   }
   /********************************************************FOOTER MUJER ***********************************************/
+  .social-mujer {
+    width:45px;
+    margin-left:70px;
+ 
+    }
 
+    .img{
+      margin-top: 20px;
+      
+    }
   .contacto-footer-mujer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -500px !important;
+    height: 250px;
+    background-color: #f5f5f583;
+    bottom: -85px;
   }
+  
 
   .footer-mujer {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -680,15 +737,14 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
-    padding: 10px;
+    margin-left: 5px;
   }
   .mapa-mujer {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
+    margin-left: -40px;
     padding: 20px;
-    margin-top: -320px;
   }
   .h3-mujer {
     font-size: 40px;
@@ -697,45 +753,60 @@
   .h4-mujer {
     color: darkorange;
     font-weight: 600;
-    margin-top: -230px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-mujer {
-    margin-top: 180px;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: -720px;
   }
   .datos-mail-mujer {
-    margin-top: -10px;
-    color: #f5f5f5;
+    margin-top: -20px;
+    margin-left: -760px;
   }
-
+  .contenedor-datos{
+    gap: 15px;
+    }
   .domicilio-mujer {
-    margin-top: -80px;
-    margin-left: 0px;
-    padding: 5px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   //*************************************hombre******************
-  .contacto-footer-hombre {
-    position: absolute;
+  
+  .social-hombre {
+    width:45px;
+    margin-left:70px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-hombre {
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -4450px !important;
+    height: 250px;
+    background-color: #f5f5f583;
+    bottom: -85px;
   }
 
   .footer-hombre {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -746,14 +817,15 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
+    margin-left: 5px;
   }
   .mapa-hombre {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
+    margin-left: -40px;
     padding: 20px;
-    margin-top: -220px;
+   
   }
   .h3-hombre {
     font-size: 40px;
@@ -762,44 +834,60 @@
   .h4-hombre {
     color: darkorange;
     font-weight: 600;
-    margin-top: -270px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-hombre {
-    margin-top: 240px;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: -720px;
   }
   .datos-mail-hombre {
-    margin-top: -30px;
-    color: #f5f5f5;
+    margin-top: -20px;
+    margin-left: -760px;
   }
+  .contenedor-datos{
+    gap: 15px;
+    }
 
   .domicilio-hombre {
-    margin-top: -80px;
-    margin-left: 0px;
+     margin-top: -100px;
+    margin-left: -720px;
   }
   /********************************************** Footer Niños ********************************************/
-  .contacto-footer-ninos {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -3800px !important;
+  .social-ninos {
+    width:45px;
+    margin-left:70px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-ninos {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #f5f5f583;
+      bottom: -85px;
   }
 
   .footer-ninos {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -810,61 +898,75 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
-    padding: 0px;
+    margin-left: 5px;
   }
   .mapa-ninos {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 10px;
-    margin-top: -200px;
-  }
+    margin-left: -40px;
+    padding: 20px;
+ }
   .h3-ninos {
-    font-size: 30px;
+    font-size: 40px;
     padding: 2rem;
   }
   .h4-ninos {
     color: darkorange;
     font-weight: 600;
-    margin-top: -180px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-ninos {
-    margin-top: 160px;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: -720px;
   }
   .datos-mail-ninos {
-    margin-top: -30px;
-    color: #f5f5f5;
+    margin-top: -20px;
+    margin-left: -760px;
   }
-
+  .contenedor-datos{
+    gap: 15px;
+    }
   .domicilio-ninos {
-    margin-top: -80px;
-    margin-left: 0px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   //********************************************** Footer nuevos modelos mujer********************************************/
-  .contacto-footer-compras-mj {
-    position: relative;
+  .social-compras-mj {
+    width:45px;
+    margin-left:70px;
+ 
+    }
 
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -30px;
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-compras-mj {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #f5f5f583;
+      bottom: -85px;
   }
 
   .footer-compras-mj {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -875,67 +977,77 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
+    margin-left: 5px;
   }
   .mapa-compras-mj {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -190px;
-    margin-right: 40px;
+    margin-left: -40px;
+    padding: 20px;
   }
   .h3-footer-compras-mj {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-mj {
     color: darkorange;
     font-weight: 600;
-    margin-top: -220px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    
   }
   .datos-compras-mj {
-    margin-top: 200px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-mj {
-    color: #f5f5f5;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+    margin-left: -720px;
   }
+  .datos-mail-compras-mj {
+    margin-top: -20px;
+    margin-left: -760px;
+  }
+  .contenedor-datos{
+    gap: 15px;
+    }
 
   .domicilio-compras-mj {
-    margin-top: -120px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
+   margin-top: -100px;
+    margin-left: -720px;
   }
   //********************************************** Footer compras hombre********************************************/
-  .contacto-footer-compras-hm {
-    position: relative;
+ 
+  .social-compras-hm {
+    width:45px;
+    margin-left:70px;
+ 
+    }
 
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -30px;
+    .img{
+      margin-top: 20px;
+      
+    } 
+    .contacto-footer-compras-hm {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #f5f5f583;
+      bottom: -85px;
   }
 
   .footer-compras-hm {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -946,66 +1058,75 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
+    margin-left: 5px;
   }
   .mapa-compras-hm {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -190px;
-    margin-right: 40px;
+    margin-left: -40px;
+    padding: 20px;
   }
   .h3-footer-compras-hm {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-hm {
     color: darkorange;
     font-weight: 600;
-    margin-top: -260px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-compras-hm {
-    margin-top: 200px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-hm {
-    color: #f5f5f5;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+    margin-left: -720px;
   }
-
+  .datos-mail-compras-hm {
+    margin-top: -20px;
+    margin-left: -760px;
+  }
+  .contenedor-datos{
+    gap: 15px;
+    }
   .domicilio-compras-hm {
-    margin-top: -120px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   //********************************************** Footer compras niños********************************************/
-  .contacto-footer-compras-ninos {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -30px;
+  
+  .social-compras-ninos {
+    width:45px;
+    margin-left:70px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-compras-ninos {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #f5f5f583;
+      bottom: -85px;
   }
 
   .footer-compras-ninos{
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -1016,67 +1137,75 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
+    margin-left: 5px;
   }
   .mapa-compras-ninos {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -190px;
-    margin-right: 40px;
+    margin-left: -40px;
+    padding: 20px;
   }
   .h3-footer-compras-ninos {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-ninos {
     color: darkorange;
     font-weight: 600;
-    margin-top: -260px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-compras-ninos {
-    margin-top: 200px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-ninos {
-    color: #f5f5f5;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+    margin-left: -720px;
   }
-
+  .datos-mail-compras-ninos {
+    margin-top: -20px;
+    margin-left: -760px;
+  }
+  .contenedor-datos{
+    gap: 15px;
+    }
   .domicilio-compras-ninos {
-    margin-top: -120px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   //********************************************** Footer compras especial********************************************/
-  .contacto-footer-compras-nvm {
-    position: relative;
+  
+  .social-nvm{
+    width:45px;
+    margin-left:70px;
+ 
+    }
 
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -30px;
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-compras-nvm {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 250px;
+      background-color: #f5f5f583;
+      bottom: -85px;
   }
 
   .footer-compras-nvm{
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
     text-align: center;
     position: absolute;
-    bottom: -120px;
+    bottom: -150px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
@@ -1087,45 +1216,42 @@
     align-items: center;
     color: aliceblue;
     font-weight: 600;
+    margin-left: 5px;
   }
   .mapa-compras-nvm {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 160px;
-    padding: 5px;
-    margin-top: -190px;
-    margin-right: 40px;
+    margin-left: -40px;
+    padding: 20px;
   }
   .h3-footer-compras-nvm {
-    font-size: 30px;
+    font-size: 40px;
   }
   .h4-footer-compras-nvm{
     color: darkorange;
     font-weight: 600;
-    margin-top: -260px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos-compras-nvm {
-    margin-top: 200px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-right: 60px;
-  }
-  .datos-mail-compras-nvm {
-    color: #f5f5f5;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    text-align: center;
+    margin-left: -720px;
   }
-
+  .datos-mail-compras-nvm {
+    margin-top: -20px;
+    margin-left: -760px;
+  }
+  .contenedor-datos-compras-nvm{
+    gap: 15px;
+    }
   .domicilio-compras-nvm {
-    margin-top: -120px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 40px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   
 }
@@ -1142,19 +1268,24 @@
     color: darkorange;
   }
   
-  .social img{
-    max-width:10%;
-     margin:auto;
-     margin-left: -270px;
+  .social {
+    width:45px;
+    margin-left:0px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
     }
 
   .contacto-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -3200px !important;
+   
   }
 
   .footer {
@@ -1186,12 +1317,12 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left:-100px;
-    padding: 20px;
+   margin-left: 140px;
+    
   }
   .h3 {
     font-size: 40px;
-    padding: 2rem;
+   margin-left: -240px;
   }
   .h4 {
     color: darkorange;
@@ -1221,15 +1352,24 @@
     margin-left: -920px;
   }
   /****************************Footer Hombre *****************************************/
-  .contacto-footer-hombre {
-    position: absolute;
-    bottom: 0px;
+  
+  .social-hombre {
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-hombre {
+    position: relative;
+    bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
-    bottom: -4000px !important;
-  }
-
+}
   .footer-hombre {
     height: 350px;
     line-height: 50px;
@@ -1245,26 +1385,25 @@
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-hombre a {
+  .relleno-footer-hombre  {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 7px;
-    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 5px;
+    
   }
   .mapa-hombre {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
+   
   }
   .h3-hombre {
     font-size: 40px;
-    margin-left: 60px;
+    
   }
   .h4-hombre {
     color: darkorange;
@@ -1278,25 +1417,37 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+    
   }
   .datos-mail-hombre {
-    margin-top: -30px;
-    margin-left: -40px;
+    margin-top: -90px;
+    margin-left: -80px;
+    
   }
   .domicilio-hombre {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
-
+  .contenedor-datos{
+    gap: 15px;
+    }
   /*******************************************************footer mujer *****************************************/
-  .contacto-footer-mujer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -400px !important;
+  .social-mujer {
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    .contacto-footer-mujer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 300px;
+      background-color: #f5f5f5;
   }
 
   .footer-mujer {
@@ -1314,26 +1465,23 @@
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-mujer a {
+  .relleno-footer-mujer  {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 7px;
-    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 5px;
   }
   .mapa-mujer {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
   }
   .h3-mujer {
     font-size: 40px;
-    margin-left: 60px;
+    
   }
   .h4-mujer {
     color: darkorange;
@@ -1343,29 +1491,41 @@
     margin-right: 40px;
   }
   .datos-mujer {
-    margin-top: 120px;
+    margin-top: 160px;
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+   
   }
   .datos-mail-mujer {
-    margin-top: 0px;
-    margin-left: -40px;
+    margin-top: -90px;
+    margin-left: -80px;
   }
   .domicilio-mujer {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
+  .contenedor-datos{
+    gap: 15px;
+    }
 
   /********************************************** Footer Niños ********************************************/
-  .contacto-footer-ninos {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -3400px !important;
+  
+  .social-ninos {
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }.contacto-footer-ninos {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 300px;
+      background-color: #f5f5f5;
   }
 
   .footer-ninos {
@@ -1383,26 +1543,23 @@
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer-ninos a {
+  .relleno-footer-ninos  {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 7px;
-    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 5px;
   }
   .mapa-ninos {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
   }
   .h3-ninos {
     font-size: 40px;
-    margin-left: 60px;
+    
   }
   .h4-ninos {
     color: darkorange;
@@ -1416,18 +1573,28 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+    
   }
   .datos-mail-ninos {
-    margin-top: -30px;
-    margin-left: -40px;
+    margin-top: -90px;
+    margin-left: -80px;
   }
   .domicilio-ninos {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
 
   //********************************************** Footer compras mujer********************************************/
+  .social-compras-mj {
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
   .lista-footer-compras-mj a {
     display: block;
     justify-content: center;
@@ -1462,24 +1629,22 @@
   .relleno-footer-compras-mj a {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 2px;
-    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 5px;
+    
     
   }
   .mapa-compras-mj {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
   }
   .h3-footer-compras-mj {
     font-size: 40px;
-    margin-left: 60px;
+    
   }
   .h4-footer-compras-mj {
     color: darkorange;
@@ -1493,30 +1658,36 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+    
   }
   .datos-mail-compras-mj {
-    margin-top: -30px;
-    margin-left: -40px;
+    margin-top: -90px;
+    margin-left: -80px;
   }
   .domicilio-compras-mj {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
-  a {
-    text-decoration: none;
-  }
+  .contenedor-datos{
+    gap: 15px;
+    }
   //********************************************** Footer compras hombre********************************************/
-  .lista-footer-compras-hm {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    row-gap: 40px;
-  }
+  
+  .social-compras-hm {
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    }
+    
+ 
   .contacto-footer-compras-hm {
     position: relative;
-    bottom: -30px;
+    bottom: 0px;
     width: 100%;
     height: 300px;
     background-color: white;
@@ -1540,25 +1711,19 @@
   .relleno-footer-compras-hm a {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 2px;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 20px;
+    font-weight: 600px;
+    margin-left: 5px;
   }
   .mapa-compras-hm {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
   }
   .h3-footer-compras-hm {
     font-size: 40px;
-    margin-left: 60px;
   }
   .h4-footer-compras-hm {
     color: darkorange;
@@ -1572,22 +1737,30 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+   
   }
   .datos-mail-compras-hm {
-    margin-top: -30px;
-    margin-left: -40px;
+    margin-top: -90px;
+    margin-left: -80px;
   }
   .domicilio-compras-hm {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
-  a {
-    text-decoration: none;
-  }
+  
     //********************************************** Footer compras Niño********************************************/
     
-    .contacto-footer-compras-ninos {
+    .social-compras-ninos {
+      width:45px;
+      margin-left:40px;
+   
+      }
+  
+      .img{
+        margin-top: 20px;
+        
+      }
+      .contacto-footer-compras-ninos {
       position: relative;
       bottom: -30px;
       width: 100%;
@@ -1610,28 +1783,24 @@
       gap: 1rem;
       background-color: #141313;
     }
-    .relleno-footer-compras-ninos a {
+    .relleno-footer-compras-ninos  {
       display: flex;
       justify-content: start;
-      text-align: center;
-      align-items: start;
+      align-items: center;
       color: aliceblue;
-      font-weight: 400;
-      padding: 2px;
-      font-size: 20px;
-      margin-top:0px;
-      text-decoration: none;
+      font-weight: 600px;
+      margin-left: 5px;
     }
     .mapa-compras-ninos {
       display: flex;
       justify-content: end;
-      align-items: end;
-      margin-left: 80px;
-      margin-bottom: 40px;
+      align-items: center;
+      margin-left:100px;
+     
     }
     .h3-footer-compras-ninos {
       font-size: 40px;
-      margin-left: 60px;
+      
     }
     .h4-footer-compras-ninos {
       color: darkorange;
@@ -1645,21 +1814,28 @@
       display: flex;
       justify-content: start;
       text-align: start;
-      margin-left: -40px;
+      
     }
     .datos-mail-compras-ninos {
-      margin-top: -30px;
-      margin-left: -40px;
+      margin-top: -90px;
+      margin-left: -80px;
     }
     .domicilio-compras-ninos {
-      margin-top: -80px;
-      margin-left: -140px;
+      margin-top: 90px;
+      margin-left: -920px;
     }
-    a {
-      text-decoration: none;
-    }
-   //********************************************** Footer compras especial********************************************/
     
+   //********************************************** Footer compras especial********************************************/
+   .social-nvm{
+    width:45px;
+    margin-left:40px;
+ 
+    }
+
+    .img{
+      margin-top: 20px;
+      
+    } 
    .contacto-footer-compras-nvm {
     position: relative;
     bottom: -30px;
@@ -1686,24 +1862,20 @@
   .relleno-footer-compras-nvm a {
     display: flex;
     justify-content: start;
-    text-align: center;
-    align-items: start;
+    align-items: center;
     color: aliceblue;
-    font-weight: 400;
-    padding: 2px;
-    font-size: 20px;
-    margin-top:0px;
+    font-weight: 600px;
+    margin-left: 5px;
   }
   .mapa-compras-nvm {
     display: flex;
     justify-content: end;
-    align-items: end;
-    margin-left: 80px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-left:100px;
   }
   .h3-footer-compras-nvm {
     font-size: 40px;
-    margin-left: 60px;
+    
   }
   .h4-footer-compras-nvm {
     color: darkorange;
@@ -1717,17 +1889,15 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    margin-left: -40px;
+    
   }
   .datos-mail-compras-nvm {
     margin-top: -30px;
     margin-left: -40px;
   }
   .domicilio-compras-nvm {
-    margin-top: -80px;
-    margin-left: -140px;
+    margin-top: -90px;
+    margin-left: -80px;
   }
-  a {
-    text-decoration: none;
-  }
+
 }
