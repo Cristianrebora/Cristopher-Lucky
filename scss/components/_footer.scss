@@ -2,12 +2,12 @@
   /* **********************************************footer index ****************************************************/
 
   .contacto-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -3800px;
+    height: 350px;
+    background-color: #f5f5f583;
+    bottom: -5px;
   }
 
   .footer {
@@ -22,7 +22,6 @@
     width: 100%;
     display: block;
     justify-content: center;
-    gap: 1rem;
     background-color: #141313;
   }
   .relleno-footer a {
@@ -32,36 +31,47 @@
     color: aliceblue;
     font-weight: 600;
     margin-left: 5px;
+    text-decoration: none;
   }
+  .social img{
+    max-width:7%;
+     margin:10px;
+     margin-left: -0px;
+     
+    }
   .mapa {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    margin-left: 150px;
-    padding: 20px;
+    margin-left: 0px;
+    padding: 0px;
     margin-top: -160px;
+    
   }
   .h3 {
     font-size: 40px;
-    padding: 2rem;
+    
   }
   .h4 {
     color: darkorange;
     font-weight: 600;
-    margin-top: -250px;
+    margin-top: -280px;
+   position: absolute;
+   margin-left: 80px;
   }
   .datos {
-    margin-top: 180px;
+    margin-top: 55px;
     display: flex;
     justify-content: center;
     text-align: center;
+    
   }
   .datos-mail {
-    margin-top: -30px;
+    margin-top: -90px;
   }
 
   .domicilio {
-    margin-top: -80px;
+    margin-top: -70px;
     margin-left: 0px;
   }
   /********************************************** Footer Hombre ********************************************/
@@ -545,25 +555,36 @@
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 1199px) {
-  .lista-footer a {
-    display: block;
+  .lista-footer li {
+    display:block;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     text-decoration: none;
-    row-gap: 80px;
+    row-gap: 20px;
+    text-decoration: none;
+    color: darkorange;
   }
+  
+  .social img{
+   width:25px;
+   
+     margin-left: -170px;
+    
+    }
+
   .contacto-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 300px;
-    background-color: #f5f5f5;
-    bottom: -2300px !important;
+    height: 350px;
+    background-color: #f5f5f583;
+    bottom: -5px;
   }
 
+
   .footer {
-    height: 380px;
+    height: 350px;
     line-height: 50px;
     background: rgba(31, 20, 20, 0.973);
     color: white;
@@ -572,50 +593,60 @@
     bottom: -100px;
     left: 0px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     gap: 1rem;
     background-color: #141313;
   }
-  .relleno-footer a {
+
+  .relleno-footer  {
     display: flex;
     justify-content: start;
     align-items: center;
     color: aliceblue;
-    font-weight: 600;
+    font-weight: 600px;
     margin-left: 5px;
-    padding: 5px;
+    
   }
   .mapa {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
+    margin-left:-80px;
     padding: 20px;
-    margin-top: -190px;
   }
   .h3 {
     font-size: 40px;
     padding: 2rem;
+    
   }
   .h4 {
     color: darkorange;
-    font-weight: 600;
-    margin-top: -250px;
+    font-weight: 600px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .datos {
-    margin-top: 160px;
+    margin-top: 270px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: -720px;
+    
   }
   .datos-mail {
-    margin-top: -30px;
+    margin-top: -20px;
+    margin-left: -760px;
+    
   }
+  .contenedor-datos{
+    gap: 15px;
+    }
 
   .domicilio {
-    margin-top: -80px;
-    margin-left: 0px;
+    margin-top: -100px;
+    margin-left: -720px;
   }
   /********************************************************FOOTER MUJER ***********************************************/
 
@@ -958,7 +989,6 @@
   //********************************************** Footer compras niños********************************************/
   .contacto-footer-compras-ninos {
     position: relative;
-
     width: 100%;
     height: 300px;
     background-color: #f5f5f5;
@@ -1101,14 +1131,23 @@
 }
 //********************************************escritorio*******************
 @media only screen and (min-width: 1200px) {
-  .lista-footer a {
+  .lista-footer li {
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     text-decoration: none;
     row-gap: 20px;
+    text-decoration: none;
+    color: darkorange;
   }
+  
+  .social img{
+    max-width:10%;
+     margin:auto;
+     margin-left: -270px;
+    }
+
   .contacto-footer {
     position: absolute;
     bottom: 0;
@@ -1134,20 +1173,20 @@
     background-color: #141313;
   }
 
-  .relleno-footer a {
+  .relleno-footer  {
     display: flex;
     justify-content: start;
     align-items: center;
     color: aliceblue;
     font-weight: 600px;
     margin-left: 5px;
-    text-decoration: none;
+    
   }
   .mapa {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 150px;
+    margin-left:-100px;
     padding: 20px;
   }
   .h3 {
@@ -1158,21 +1197,28 @@
     color: darkorange;
     font-weight: 600px;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 40px;
   }
   .datos {
     margin-top: 160px;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: -300px;
   }
   .datos-mail {
-    margin-top: -30px;
+    margin-top: -90px;
+    margin-left: -280px;
+    
   }
+  .contenedor-datos{
+    gap: 15px;
+    }
 
   .domicilio {
-    margin-top: -80px;
-    margin-left: 0px;
+    margin-top: 90px;
+    margin-left: -920px;
   }
   /****************************Footer Hombre *****************************************/
   .contacto-footer-hombre {
@@ -1574,6 +1620,7 @@
       padding: 2px;
       font-size: 20px;
       margin-top:0px;
+      text-decoration: none;
     }
     .mapa-compras-ninos {
       display: flex;
