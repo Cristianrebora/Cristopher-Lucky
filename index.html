@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <meta name="description" content="Cristopher Lucky|Ropa de moda, la mejor calidad y con envio a todo el pais." />
     <meta
-      name="robots"
-      content="index,follow"
+      name="description"
+      content="Cristopher Lucky|Ropa de moda, la mejor calidad y con envio a todo el pais."
     />
-    <title>Cristopher Lucky| Ropa de moda </title>
- 
-    
-    
+    <meta name="robots" content="index,follow" />
+    <title>Cristopher Lucky| Ropa de moda</title>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -40,9 +38,44 @@
       property="twitter:image"
       content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
 
   <body class="body">
+    <style>
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(60, 123, 160, 0.308);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .popup {
+        background-color: rgba(223, 209, 14, 0.486);
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        
+      
+      }
+      .boton-inicio p{
+  padding: 8px;
+  color: #b8860b;
+}
+.cajabutton {
+  padding: 5px;
+}
+    </style>
+
+   <div class="cajabutton"><button class="boton-inicio"  onclick="mostrarPopup()"><p>Iniciar sesión</p></button>
+
+
     <div class="header-titulo">
       <h1>Cristopher Lucky</h1>
     </div>
@@ -71,8 +104,7 @@
         <div class="textoimg-1">
           <p class="foto-1-texto">NIKE & CRISTOPHER LUCKY</p>
         </div>
-
-        <a href="./pages/nuevos-modelos.html"><button class="boton">Comprar</button></a>
+        <button class="boton" onclick="fireSweetAlert('NIKE & CRISTOPHER LUCKY')">Comprar</button>
       </div>
     </div>
 
@@ -85,8 +117,7 @@
         />
 
         <a class="text-index" href="./pages/nuevos-modelos.html"
-          ><figcaption><button class="boton">
-            SOMBREROS</button></figcaption></a
+          ><figcaption><button class="boton">SOMBREROS</button></figcaption></a
         >
       </figure>
 
@@ -119,10 +150,18 @@
         <div class="relleno-footer">
           <h3 class="h3">Contacto</h3>
           <div class="social">
-            <a href="./pages/Nosotros-contacto.html"><img src="img/log/facebook.png" alt="Facebook"></a>
-            <a href="./pages/Nosotros-contacto.html"><img src="img/log/gorjeo.png" alt="Twitter"></a>
-            <a href="./pages/Nosotros-contacto.html"><img src="img/log/whatsapp.png" alt="Whatsapp"></a>
-            <a href="./pages/Nosotros-contacto.html"><img src="img/log/instagram.png" alt="instagram"></a>
+            <a href="./pages/Nosotros-contacto.html"
+              ><img src="img/log/facebook.png" alt="Facebook"
+            /></a>
+            <a href="./pages/Nosotros-contacto.html"
+              ><img src="img/log/gorjeo.png" alt="Twitter"
+            /></a>
+            <a href="./pages/Nosotros-contacto.html"
+              ><img src="img/log/whatsapp.png" alt="Whatsapp"
+            /></a>
+            <a href="./pages/Nosotros-contacto.html"
+              ><img src="img/log/instagram.png" alt="instagram"
+            /></a>
           </div>
         </div>
         <div class="mapa">
@@ -144,5 +183,22 @@
         </div>
       </footer>
     </div>
+    <script>
+      function fireSweetAlert(a) {
+        Swal.fire({
+          title: "Se agregó al carrito!",
+          showCancelButton: true,
+          confirmButtonText: "Ver carrito",
+          cancelButtonText: "Seguir comprando",
+          confirmButtonColor: "#808080",
+          cancelButtonColor: "#008b8b",
+        }).then((result) => {
+          sessionStorage.setItem(a,a)
+          if (result.isConfirmed) {
+            location.href = "./pages/carrito.html";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
