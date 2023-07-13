@@ -42,42 +42,18 @@
   </head>
 
   <body class="body">
-    <style>
-      .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(60, 123, 160, 0.308);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-      }
-
-      .popup {
-        background-color: rgba(223, 209, 14, 0.486);
-        padding: 40px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        
-      
-      }
-      .boton-inicio p{
-  padding: 8px;
-  color: #b8860b;
-}
-.cajabutton {
-  padding: 5px;
-}
-    </style>
-
-   <div class="cajabutton"><button class="boton-inicio"  onclick="mostrarPopup()"><p>Iniciar sesión</p></button>
-
-
     <div class="header-titulo">
       <h1>Cristopher Lucky</h1>
+    </div>
+    <div class="carritodiv">
+      <a href="./pages/carrito.html"
+        ><button>
+          <img
+            src="./img/compras/carro-de-la-compra.png"
+            class="carritoFoto"
+            alt="buttonpng"
+          /></button
+      ></a>
     </div>
     <div>
       <form action="" class="header-form">
@@ -104,7 +80,13 @@
         <div class="textoimg-1">
           <p class="foto-1-texto">NIKE & CRISTOPHER LUCKY</p>
         </div>
-        <button class="boton" onclick="fireSweetAlert('NIKE & CRISTOPHER LUCKY')">Comprar</button>
+        <button
+          class="boton"
+          
+          onclick="fireSweetAlert('NIKE & CRISTOPHER LUCKY')"
+        >
+          Comprar
+        </button>
       </div>
     </div>
 
@@ -183,22 +165,6 @@
         </div>
       </footer>
     </div>
-    <script>
-      function fireSweetAlert(a) {
-        Swal.fire({
-          title: "Se agregó al carrito!",
-          showCancelButton: true,
-          confirmButtonText: "Ver carrito",
-          cancelButtonText: "Seguir comprando",
-          confirmButtonColor: "#808080",
-          cancelButtonColor: "#008b8b",
-        }).then((result) => {
-          sessionStorage.setItem(a,a)
-          if (result.isConfirmed) {
-            location.href = "./pages/carrito.html";
-          }
-        });
-      }
-    </script>
+    <script src="./main.js"></script>
   </body>
 </html>

@@ -13,11 +13,18 @@
   </head>
   <body class="body-nuevos">
     <header class="contenedor-nuevos">
-        <a href="../index.html"><h1 class="h1-nuevos">Cristopfer Lucky</h1></a>
+        <a href="../index.html"><h1 class="h1-nuevos">Cristopher Lucky</h1></a>
+        <div class="carritodiv">
+          <a href="./carrito.html"
+            ><button>
+              <img
+                src="../img/compras/carro-de-la-compra.png"
+                class="carritoFoto"
+                alt="buttonpng"
+              /></button
+          ></a>
+        </div>
         <div>
-          <div class="img-carrito">
-            <img class="img-carritocompras" src="../img/compras/carro-de-la-compra.png" alt="" height="45px"  max-width="45px">
-         </div>
             <form action="" class="nvm-form">
               <input type="search" name="search" placeholder="buscar" />
               <input type="submit" value="enviar" />
@@ -36,7 +43,6 @@
               </li>
             </ul>
           </nav>
-          
     </header>
     <main class="main">
       <section class="grid-nuevos">
@@ -55,7 +61,7 @@
               <p>$55.500</p>
               <p>$52.000</p>
             </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
+            <button onclick="fireSweetAlert('EDICION ESPECIAL-$52.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
         </figure>
         <figure>
           <img class="zoom"

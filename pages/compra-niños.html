@@ -1,740 +1,752 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <meta
-      name="description"
-      content="Ropa de niños a la moda con envio a todo el pais "
-    />
-    <title>Cristopher Lucky| Compras para niños</title>
-  </head>
-  <body class="body-compras-ninos">
-    <header class="contenedor-compras-ninos">
-        <a href="../index.html"><h1 class="h1-nuevos">Cristopher Lucky</h1></a>
-        <div>
-            <form action="" class="compras-ninos-form">
-              <input type="search" name="search" placeholder="buscar" />
-              <input type="submit" value="enviar" />
-            </form>
-          </div>
-    
-          <nav class="nav-compras-ninos">
-            <ul class="list-nav-compras-ninos">
-              <li>
-                <a class="nosotros-compras-ninos" href="../pages/Nosotros-contacto.html"
-                  >NOSOTROS</a
-                >
-                <a class="mujer-compras-ninos" href="../pages/mujeres.html">MUJER</a>
-                <a class="hombre-compras-ninos" href="../pages/hombres.html">HOMBRE</a>
-                <a class="niños-compras-ninos" href="../pages/niños.html">NIÑOS</a>
-              </li>
-            </ul>
-          </nav>
-    </header>
-    <main class="main">
-      <section class="grid-compras-ninos">
-        <h2 class="h2-compras-ninos">COMPRAS PARA NIÑOS</h2>
-        <h3 class="indicador2">BEBES</h3>
-       <div class="contenedor-img-compras-ninos">
-        <figure> 
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/jardinero.jpg"
-            alt="jardinero jean "
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">JARDINERO</h4>
-            <p>JEAN</p>
-            <div class="precio">
-              <p>$15.900</p>
-              <p>$13.500</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-        </figure>
-       
-        <figure>
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/enterito-rallado.jpg"
-            alt=" cartera verde diseño"
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">ENTERITO</h4>
-            <p>BLANCO Y AZUL</p>
-            <div class="precio">
-              <p>$10.500</p>
-              <p>$9.300</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-          </div>
-        </figure>
-    <figure>
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/saquito-jean.jpg"
-            alt="cartera CL blanca"
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">CAMPERITA</h4>
-            <p>JEAN</p>
-            <div class="precio">
-              <p>$22.900</p>
-              <p>$20.700</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-          </div>
-        </figure>
-    <figure>
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/zapatitos.jpg"
-            alt="cartera negra estilo"
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">ZAPATITOS</h4>
-            <p>BEIGE</p>
-            <div class="precio">
-              <p>$10.200</p>
-              <p>$8.500</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-          </div>
-        </figure>
-       </div>
-    </section>
-    <section class="grid-compras-ninos">
-        <h3 class="indicador1">MAS BEBES </h3>
-    <div class="contenedor-img-compras-ninos">
-        <figure>
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/enterito-cl.jpg"
-            alt="ENTERITO CL"
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">ENTERITO CL</h4>
-            <p>BLANCO-ROSA</p>
-            <div class="precio">
-              <p>$10.500</p>
-              <p>$8.600</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-          </div>
-        </figure>
+ <head>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="../css/main.css" />
+ <meta
+ name="description"
+ content="Ropa de niños a la moda con envio a todo el pais "
+ />
+ <title>Cristopher Lucky| Compras para niños</title>
+ </head>
+ <body class="body-compras-ninos">
+ <header class="contenedor-compras-ninos">
+ <a href="../index.html"><h1 class="h1-nuevos">Cristopher Lucky</h1></a>
+ <div class="carritodiv">
+ <a href="./carrito.html"
+ ><button>
+ <img
+ src="../img/compras/carro-de-la-compra.png"
+ class="carritoFoto"
+ alt="buttonpng"
+ /></button
+ ></a>
+ </div>
+ <div>
+ <form action="" class="compras-ninos-form">
+ <input type="search" name="search" placeholder="buscar" />
+ <input type="submit" value="enviar" />
+ </form>
+ </div>
+ 
+ <nav class="nav-compras-ninos">
+ <ul class="list-nav-compras-ninos">
+ <li>
+ <a class="nosotros-compras-ninos" href="../pages/Nosotros-contacto.html"
+ >NOSOTROS</a
+ >
+ <a class="mujer-compras-ninos" href="../pages/mujeres.html">MUJER</a>
+ <a class="hombre-compras-ninos" href="../pages/hombres.html">HOMBRE</a>
+ <a class="niños-compras-ninos" href="../pages/niños.html">NIÑOS</a>
+ </li>
+ </ul>
+ </nav>
+ </header>
+ <main class="main">
+ <section class="grid-compras-ninos">
+ <h2 class="h2-compras-ninos">COMPRAS PARA NIÑOS</h2>
+ <h3 class="indicador2">BEBES</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure> 
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/jardinero.jpg"
+ alt="jardinero jean "
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">JARDINERO</h4>
+ <p>JEAN</p>
+ <div class="precio">
+ <p>$15.900</p>
+ <p>$13.500</p>
+ </div>
+ <button onclick="fireSweetAlert('JARDINERO-$13.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/enterito-rallado.jpg"
+ alt=" cartera verde diseño"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ENTERITO</h4>
+ <p>BLANCO Y AZUL</p>
+ <div class="precio">
+ <p>$10.500</p>
+ <p>$9.300</p>
+ </div>
+ <button onclick="fireSweetAlert('ENTERITO-$9.300')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/saquito-jean.jpg"
+ alt="cartera CL blanca"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CAMPERITA</h4>
+ <p>JEAN</p>
+ <div class="precio">
+ <p>$22.900</p>
+ <p>$20.700</p>
+ </div>
+ <button onclick="fireSweetAlert('CAMPERITA-$20.700')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/zapatitos.jpg"
+ alt="cartera negra estilo"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ZAPATITOS</h4>
+ <p>BEIGE</p>
+ <div class="precio">
+ <p>$10.200</p>
+ <p>$8.500</p>
+ </div>
+ <button onclick="fireSweetAlert('ZAPATITOS-$8.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">MAS BEBES </h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/enterito-cl.jpg"
+ alt="ENTERITO CL"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ENTERITO CL</h4>
+ <p>BLANCO-ROSA</p>
+ <div class="precio">
+ <p>$10.500</p>
+ <p>$8.600</p>
+ </div>
+ <button onclick="fireSweetAlert('ENTERITO CL-$8.600')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
 
-        <figure>
-          <img class="zoom"
-            src="../img/nuevos modelos/niños/bebes/diseño-cl.jpg"
-            alt="TAPADO INVIERNO"
-          />
-          <div class="info">
-            <h4 class="h4-compras-ninos">TAPADO</h4>
-            <p>DISEÑO</p>
-            <div class="precio">
-              <p>$13.900</p>
-              <p>$11.500</p>
-            </div>
-            <button class="ov-btn-slide-top">Agregar al Carrito</button>
-          </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/bebes/peluche-cl.jpg"
-              alt="bikini salmon"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">PELUCHE</h4>
-              <p>GRIS</p>
-              <div class="precio">
-                <p>$8.900</p>
-                <p>$7.200</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/bebes/gorrito.jpg"
-              alt="bikini verde"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">GORRITO</h4>
-              <p>BLANCO-ROSA</p>
-              <div class="precio">
-                <p>$5.600</p>
-                <p>$4.100</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    </div>
-    </section>
-    <section class="grid-compras-ninos">
-        <h3 class="indicador1">DE 2 A 4 AÑOS</h3>
-       <div class="contenedor-img-compras-ninos">
-         
-          <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/buzo-rosa.jpg"
-              alt="BUZO ROSA-BLANCO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">BUZO</h4>
-              <p>ROSA-BLANCO</p>
-              <div class="precio">
-                <p>$12.500</p>
-                <p>$9.900</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/vestido-amarillo.jpg"
-              alt="VESTIDO AMARILLO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">VESTIDO</h4>
-              <p>AMARILLO-ROSA</p>
-              <div class="precio">
-                <p>$16.990</p>
-                <p>$15.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/jardinero-jean.jpg"
-              alt="jardinero "
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">JARDINERO</h4>
-              <p>JEAN</p>
-              <div class="precio">
-                <p>$22.500</p>
-                <p>$20.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/enterito-azul.jpg"
-              alt="vestido"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">ENTERITO</h4>
-              <p>AZUL</p>
-              <div class="precio">
-                <p>$12.500</p>
-                <p>$10.500</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-       </div>
-    </section>
-        <section class="grid-compras-ninos">
-            <h3 class="indicador1">MAS 2 A 4 AÑOS</h3>
-           <div class="contenedor-img-compras-ninos">
-        <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/remeracl.jpg"
-              alt="polera al cuerpo"
-            />
-            <div class="info">
-              <h4 class="h-compras-ninos">REMERA</h4>
-              <p>CL</p>
-              <div class="precio">
-                <p>$10.900</p>
-                <p>$9.900</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/camperita corderoi.jpg"
-              alt="polera algodon"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">CAMPERITA</h4>
-              <p>CORDEROI</p>
-              <div class="precio">
-                <p>$22.500</p>
-                <p>$19.900</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/conjunto.jpg"
-              alt="CONJUNTO CL"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">CONJUNTO</h4>
-              <p>INVIERNO</p>
-              <div class="precio">
-                <p>$27.500</p>
-                <p>$25.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 2 a 4 años/gorrito.jpg"
-              alt="GORRITO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">GORRITO</h4>
-              <p>CL</p>
-              <div class="precio">
-                <p>$4.900</p>
-                <p>$3.900</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    </div>
-        </section>
-        <section class="grid-compras-ninos">
-            <h3 class="indicador1">DE 5 A 7 AÑOS</h3>
-           <div class="contenedor-img-compras-ninos">
-          <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 5 a 7 años/CONJUNTOCL.jpg"
-              alt="CONJUNTO CL"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">CONJUNTO CL</h4>
-              <p>AMARILLO</p>
-              <div class="precio">
-                <p>$26.990</p>
-                <p>$24.500</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 5 a 7 años/ENTERITO.jpg"
-              alt="ENTERITO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">ENTERITO</h4>
-              <p>MARRON CLARO</p>
-              <div class="precio">
-                <p>$15.990</p>
-                <p>$14.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/REMERA.jpg"
-                alt="REMERA"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">REMERA</h4>
-                <p>BLANCA-NEGRA-AZUL</p>
-                <div class="precio">
-                  <p>$5.500</p>
-                  <p>$4.800</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/SWEATER-VERDE.jpg"
-                alt="SWEATER"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">SWEATER</h4>
-                <p>VERDE</p>
-                <div class="precio">
-                  <p>$12.500</p>
-                  <p>$9.990</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-        </div>
-        </section>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/diseño-cl.jpg"
+ alt="TAPADO INVIERNO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">TAPADO</h4>
+ <p>DISEÑO</p>
+ <div class="precio">
+ <p>$13.900</p>
+ <p>$11.500</p>
+ </div>
+ <button onclick="fireSweetAlert('TAPADO-$11.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/peluche-cl.jpg"
+ alt="bikini salmon"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">PELUCHE</h4>
+ <p>GRIS</p>
+ <div class="precio">
+ <p>$8.900</p>
+ <p>$7.200</p>
+ </div>
+ <button onclick="fireSweetAlert('PELUCHE-$7.200')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/bebes/gorrito.jpg"
+ alt="bikini verde"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">GORRITO</h4>
+ <p>BLANCO-ROSA</p>
+ <div class="precio">
+ <p>$5.600</p>
+ <p>$4.100</p>
+ </div>
+ <button onclick="fireSweetAlert('GORRITO-$4.100')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">DE 2 A 4 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/buzo-rosa.jpg"
+ alt="BUZO ROSA-BLANCO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">BUZO</h4>
+ <p>ROSA-BLANCO</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$9.900</p>
+ </div>
+ <button onclick="fireSweetAlert('JARDINERO-$9.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/vestido-amarillo.jpg"
+ alt="VESTIDO AMARILLO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">VESTIDO</h4>
+ <p>AMARILLO-ROSA</p>
+ <div class="precio">
+ <p>$16.990</p>
+ <p>$15.000</p>
+ </div>
+ <button onclick="fireSweetAlert('VESTIDO-$15.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/jardinero-jean.jpg"
+ alt="jardinero "
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">JARDINERO</h4>
+ <p>JEAN</p>
+ <div class="precio">
+ <p>$22.500</p>
+ <p>$20.000</p>
+ </div>
+ <button onclick="fireSweetAlert('JARDINERO-$20.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/enterito-azul.jpg"
+ alt="vestido"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ENTERITO</h4>
+ <p>AZUL</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$10.500</p>
+ </div>
+ <button onclick="fireSweetAlert('ENTERITO-$10.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">MAS 2 A 4 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/remeracl.jpg"
+ alt="polera al cuerpo"
+ />
+ <div class="info">
+ <h4 class="h-compras-ninos">REMERA</h4>
+ <p>CL</p>
+ <div class="precio">
+ <p>$10.900</p>
+ <p>$9.900</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$9.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/camperita corderoi.jpg"
+ alt="polera algodon"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CAMPERITA</h4>
+ <p>CORDEROI</p>
+ <div class="precio">
+ <p>$22.500</p>
+ <p>$19.900</p>
+ </div>
+ <button onclick="fireSweetAlert('CAMPERITA-$19.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/conjunto.jpg"
+ alt="CONJUNTO CL"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CONJUNTO</h4>
+ <p>INVIERNO</p>
+ <div class="precio">
+ <p>$27.500</p>
+ <p>$25.000</p>
+ </div>
+ <button onclick="fireSweetAlert('CONJUNTO-$25.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 2 a 4 años/gorrito.jpg"
+ alt="GORRITO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">GORRITO</h4>
+ <p>CL</p>
+ <div class="precio">
+ <p>$4.900</p>
+ <p>$3.900</p>
+ </div>
+ <button onclick="fireSweetAlert('GORRITO-$3.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">DE 5 A 7 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/CONJUNTOCL.jpg"
+ alt="CONJUNTO CL"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CONJUNTO CL</h4>
+ <p>AMARILLO</p>
+ <div class="precio">
+ <p>$26.990</p>
+ <p>$24.500</p>
+ </div>
+ <button onclick="fireSweetAlert('CONJUNTO CL-$13.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/ENTERITO.jpg"
+ alt="ENTERITO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ENTERITO</h4>
+ <p>MARRON CLARO</p>
+ <div class="precio">
+ <p>$15.990</p>
+ <p>$14.000</p>
+ </div>
+ <button onclick="fireSweetAlert('ENTERITO-$14.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/REMERA.jpg"
+ alt="REMERA"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">REMERA</h4>
+ <p>BLANCA-NEGRA-AZUL</p>
+ <div class="precio">
+ <p>$5.500</p>
+ <p>$4.800</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$4.800')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/SWEATER-VERDE.jpg"
+ alt="SWEATER"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">SWEATER</h4>
+ <p>VERDE</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$9.990</p>
+ </div>
+ <button onclick="fireSweetAlert('SWEATER-$9.990')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
 
-            <section class="grid-compras-ninos">
-                <h3 class="indicador3">MAS 5 A 7 AÑOS</h3>
-               <div class="contenedor-img-compras-ninos">
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/buzomr.jpg"
-                alt=" SAQUITO"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">SAQUITO</h4>
-                <p>ROSA-BLANCO</p>
-                <div class="precio">
-                  <p>$12.500</p>
-                  <p>$10.500</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/enteritom.jpg"
-                alt="ENTERITO"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">ENTERITO</h4>
-                <p>BESIGE</p>
-                <div class="precio">
-                  <p>$12.990</p>
-                  <p>$11.500</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/jardinero.jpg"
-                alt=" JARDINERO"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">JARDINERO</h4>
-                <p>NEGRO</p>
-                <div class="precio">
-                  <p>$14.300</p>
-                  <p>$13.000</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 5 a 7 años/buzocl.jpg"
-                alt=" conjunto amrillo"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">BUZO</h4>
-                <p>RALLADO AMARILLO CL</p>
-                <div class="precio">
-                  <p>$15.500</p>
-                  <p>$12.000</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-               </div>
-            </section>
-            <section class="grid-compras-ninos">
-                <h3 class="indicador1">DE 8 A 9 AÑOS</h3>
-               <div class="contenedor-img-compras-ninos">
-        <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/saquito-verde.jpg"
-              alt="saco"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">SAQUITO</h4>
-              <p>VERDE</p>
-              <div class="precio">
-                <p>$14.500</p>
-                <p>$12.600</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/remera.jpg"
-              alt="REMERA"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">REMERA</h4>
-              <p>BLANCA-ROSA-GRIS</p>
-              <div class="precio">
-                <p>$12.200</p>
-                <p>$10.700</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/jardinero.jpg"
-              alt="jardinero "
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">JARDINERO</h4>
-              <p>jean</p>
-              <div class="precio">
-                <p>$15.500</p>
-                <p>$13.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/VESTIDO.jpg"
-              alt="VESTIDO ROSA"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">VESTIDO</h4>
-              <p>ROSA</p>
-              <div class="precio">
-                <p>$14.500</p>
-                <p>$12.200</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-            </div>
-        </section>
-        <section class="grid-compras-ninos">
-            <h3 class="indicador1">MAS 8 A 9 AÑOS</h3>
-           <div class="contenedor-img-compras-ninos">
-        <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/buzo.jpg"
-              alt="BUZO RALLADO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">BUZO</h4>
-              <p>RALLADO</p>
-              <div class="precio">
-                <p>$10.500</p>
-                <p>$8.500</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-  
-    <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 8 a 9 años/gorrito.jpg"
-              alt="canguro"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">GORRITO</h4>
-              <p>BLANCO-AZUL-NEGRO-ROSA</p>
-              <div class="precio">
-                <p>$7.500</p>
-                <p>$5.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-        </figure>
-    <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 8 a 9 años/swaters.jpg"
-                alt="SWEATER CL"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">SWEATER</h4>
-                <p>DISEÑO CL</p>
-                <div class="precio">
-                  <p>$11.500</p>
-                  <p>$9.300</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 8 a 9 años/PANTALON.jpg"
-                alt="PANTALON JEAN "
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">PANTALON</h4>
-                <p>JEAN</p>
-                <div class="precio">
-                  <p>$16.900</p>
-                  <p>$15.500</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-           </div>
-        </section>
-        <section class="grid-compras-ninos">
-            <h3 class="indicador3">DE 10 A 12 AÑOS</h3>
-           <div class="contenedor-img-compras-ninos">
-            <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 10 a 12 años/remera1.jpg"
-                alt="Remera cl"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">REMERA</h4>
-                <p>CL AMARILLLA</p>
-                <div class="precio">
-                  <p>$7.290</p>
-                  <p>$5.400</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-         <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 10 a 12 años/chaleco.jpg"
-                alt="CHALECO"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">CHALECO</h4>
-                <p>NEGRO</p>
-                <div class="precio">
-                  <p>$12.500</p>
-                  <p>$11.000</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 10 a 12 años/conjuntocl.jpg"
-                alt=""
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">CONJUNTO CL</h4>
-                <p>DISEÑO</p>
-                <div class="precio">
-                  <p>$22.590</p>
-                  <p>$20.290</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-    
-        <figure>
-              <img class="zoom"
-                src="../img/nuevos modelos/niños/de 10 a 12 años/remera.jpg"
-                alt="REMERA VERDE"
-              />
-              <div class="info">
-                <h4 class="h4-compras-ninos">REMERA</h4>
-                <p>VERDE</p>
-                <div class="precio">
-                  <p>$7.790</p>
-                  <p>$4.900</p>
-                </div>
-                <button class="ov-btn-slide-top">Agregar al Carrito</button>
-              </div>
-            </figure>
-        </div>
-        </section>
-        <section class="grid-compras-ninos">
-          <h3 class="indicador3"> MAS 10 A 12 AÑOS</h3>
-         <div class="contenedor-img-compras-ninos">
-          <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 10 a 12 años/gorritos.jpg"
-              alt="GORRITOS"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">GORRITOS</h4>
-              <p>ROSA-AMARILLO-CELESTE</p>
-              <div class="precio">
-                <p>$5.990</p>
-                <p>$4.400</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-          </figure>
-  
-       <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 10 a 12 años/conjunto.jpg"
-              alt="CONJUNTO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">CONJUNTO</h4>
-              <p>DISEÑO CL</p>
-              <div class="precio">
-                <p>$12.500</p>
-                <p>$11.000</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-          </figure>
-  
-      <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 10 a 12 años/remeram.jpg"
-              alt="REMERA"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">REMERA</h4>
-              <p>CELESTE-BLANCA-ROSA</p>
-              <div class="precio">
-                <p>$8.590</p>
-                <p>$7.290</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-          </figure>
-  
-      <figure>
-            <img class="zoom"
-              src="../img/nuevos modelos/niños/de 10 a 12 años/vestido.jpg"
-              alt="VESTIDO"
-            />
-            <div class="info">
-              <h4 class="h4-compras-ninos">VESTIDO</h4>
-              <p>VERDE</p>
-              <div class="precio">
-                <p>$7.790</p>
-                <p>$4.900</p>
-              </div>
-              <button class="ov-btn-slide-top">Agregar al Carrito</button>
-            </div>
-          </figure>
-      </div>
-      </section>
-    </main>
-  
-    <div class="contacto-footer-compras-ninos">
-      <footer class="footer-compras-ninos">
-        <div class="relleno-footer-compras-ninos">
-          <h3 class="h3-footer-compras-ninos">Contacto</h3>
-          <div class="social-compras-ninos">
-            <a href="../pages/Nosotros-contacto.html"><img class="img" src="../img/log/facebook.png" alt="Facebook"></a>
-            <a href="../pages/Nosotros-contacto.html"><img class="img" src="../img/log/gorjeo.png" alt="Twitter"></a>
-            <a href="../pages/Nosotros-contacto.html"><img  class="img" src="../img/log/whatsapp.png" alt="Whatsapp"></a>
-            <a href="../pages/Nosotros-contacto.html"><img class="img"src="../img/log/instagram.png" alt="instagram"></a>
-          </div>
-        </div>
-        <div class="mapa-compras-ninos">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7726547423067!2d-58.42453158511353!3d-34.58461866399412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5815a6271b3%3A0xfddd1bf87f08cb0d!2sGurruchaga%202300%2C%20C1425FEH%20CABA!5e0!3m2!1ses!2sar!4v1681225844195!5m2!1ses!2sar"
-            width="250"
-            height="150"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <h4 class="h4-footer-compras-ninos">Cristopher Lucky</h4>
-        <div class="contenedor-datos-compras-ninos">
-          <p class="datos-compras-ninos">Telefono: 11-64543522</p>
-          <p class="datos-mail-compras-ninos">Mail: Cristopher-contacto@cristopher.com</p>
-          <p class="domicilio-compras-ninos">Direccion: Gurruchaga 2300</p>
-        </div>
-      </footer>
-    </div>
-  </body>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador3">MAS 5 A 7 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/buzomr.jpg"
+ alt=" SAQUITO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">SAQUITO</h4>
+ <p>ROSA-BLANCO</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$10.500</p>
+ </div>
+ <button onclick="fireSweetAlert('SAQUITO-$10.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/enteritom.jpg"
+ alt="ENTERITO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">ENTERITO</h4>
+ <p>BESIGE</p>
+ <div class="precio">
+ <p>$12.990</p>
+ <p>$11.500</p>
+ </div>
+ <button onclick="fireSweetAlert('ENTERITO-$11.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/jardinero.jpg"
+ alt=" JARDINERO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">JARDINERO</h4>
+ <p>NEGRO</p>
+ <div class="precio">
+ <p>$14.300</p>
+ <p>$13.000</p>
+ </div>
+ <button onclick="fireSweetAlert('JARDINERO-$13.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 5 a 7 años/buzocl.jpg"
+ alt=" conjunto amrillo"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">BUZO</h4>
+ <p>RALLADO AMARILLO CL</p>
+ <div class="precio">
+ <p>$15.500</p>
+ <p>$12.000</p>
+ </div>
+ <button onclick="fireSweetAlert('BUZO-$12.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">DE 8 A 9 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/saquito-verde.jpg"
+ alt="saco"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">SAQUITO</h4>
+ <p>VERDE</p>
+ <div class="precio">
+ <p>$14.500</p>
+ <p>$12.600</p>
+ </div>
+ <button onclick="fireSweetAlert('SAQUITO-$12.600')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/remera.jpg"
+ alt="REMERA"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">REMERA</h4>
+ <p>BLANCA-ROSA-GRIS</p>
+ <div class="precio">
+ <p>$12.200</p>
+ <p>$10.700</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$13.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/jardinero.jpg"
+ alt="jardinero "
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">JARDINERO</h4>
+ <p>jean</p>
+ <div class="precio">
+ <p>$15.500</p>
+ <p>$13.000</p>
+ </div>
+ <button onclick="fireSweetAlert('JARDINERO-$13.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/VESTIDO.jpg"
+ alt="VESTIDO ROSA"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">VESTIDO</h4>
+ <p>ROSA</p>
+ <div class="precio">
+ <p>$14.500</p>
+ <p>$12.200</p>
+ </div>
+ <button onclick="fireSweetAlert('VESTIDO-$12.200')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador1">MAS 8 A 9 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/buzo.jpg"
+ alt="BUZO RALLADO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">BUZO</h4>
+ <p>RALLADO</p>
+ <div class="precio">
+ <p>$10.500</p>
+ <p>$8.500</p>
+ </div>
+ <button onclick="fireSweetAlert('BUZO-$18.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/gorrito.jpg"
+ alt="canguro"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">GORRITO</h4>
+ <p>BLANCO-AZUL-NEGRO-ROSA</p>
+ <div class="precio">
+ <p>$7.500</p>
+ <p>$5.000</p>
+ </div>
+ <button onclick="fireSweetAlert('GORRITO-$5.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/swaters.jpg"
+ alt="SWEATER CL"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">SWEATER</h4>
+ <p>DISEÑO CL</p>
+ <div class="precio">
+ <p>$11.500</p>
+ <p>$9.300</p>
+ </div>
+ <button onclick="fireSweetAlert('SWEATER-$9.300')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 8 a 9 años/PANTALON.jpg"
+ alt="PANTALON JEAN "
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">PANTALON</h4>
+ <p>JEAN</p>
+ <div class="precio">
+ <p>$16.900</p>
+ <p>$15.500</p>
+ </div>
+ <button onclick="fireSweetAlert('PANTALON-$15.500')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador3">DE 10 A 12 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/remera1.jpg"
+ alt="Remera cl"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">REMERA</h4>
+ <p>CL AMARILLLA</p>
+ <div class="precio">
+ <p>$7.290</p>
+ <p>$5.400</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$5.400')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/chaleco.jpg"
+ alt="CHALECO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CHALECO</h4>
+ <p>NEGRO</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$11.000</p>
+ </div>
+ <button onclick="fireSweetAlert('CHALECO-$11.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/conjuntocl.jpg"
+ alt=""
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CONJUNTO CL</h4>
+ <p>DISEÑO</p>
+ <div class="precio">
+ <p>$22.590</p>
+ <p>$20.290</p>
+ </div>
+ <button onclick="fireSweetAlert('CONJUNTO CL-$20.290')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/remera.jpg"
+ alt="REMERA VERDE"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">REMERA</h4>
+ <p>VERDE</p>
+ <div class="precio">
+ <p>$7.790</p>
+ <p>$4.900</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$4.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ <section class="grid-compras-ninos">
+ <h3 class="indicador3"> MAS 10 A 12 AÑOS</h3>
+ <div class="contenedor-img-compras-ninos">
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/gorritos.jpg"
+ alt="GORRITOS"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">GORRITOS</h4>
+ <p>ROSA-AMARILLO-CELESTE</p>
+ <div class="precio">
+ <p>$5.990</p>
+ <p>$4.400</p>
+ </div>
+ <button onclick="fireSweetAlert('GORRITOS-$4.400')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/conjunto.jpg"
+ alt="CONJUNTO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">CONJUNTO</h4>
+ <p>DISEÑO CL</p>
+ <div class="precio">
+ <p>$12.500</p>
+ <p>$11.000</p>
+ </div>
+ <button onclick="fireSweetAlert('CONJUNTO-$11.000')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/remeram.jpg"
+ alt="REMERA"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">REMERA</h4>
+ <p>CELESTE-BLANCA-ROSA</p>
+ <div class="precio">
+ <p>$8.590</p>
+ <p>$7.290</p>
+ </div>
+ <button onclick="fireSweetAlert('REMERA-$7.290')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ 
+ <figure>
+ <img class="zoom"
+ src="../img/nuevos modelos/niños/de 10 a 12 años/vestido.jpg"
+ alt="VESTIDO"
+ />
+ <div class="info">
+ <h4 class="h4-compras-ninos">VESTIDO</h4>
+ <p>VERDE</p>
+ <div class="precio">
+ <p>$7.790</p>
+ <p>$4.900</p>
+ </div>
+ <button onclick="fireSweetAlert('VESTIDO-$4.900')" class="ov-btn-slide-top">Agregar al Carrito</button>
+ </div>
+ </figure>
+ </div>
+ </section>
+ </main>
+ 
+ <div class="contacto-footer-compras-ninos">
+ <footer class="footer-compras-ninos">
+ <div class="relleno-footer-compras-ninos">
+ <h3 class="h3-footer-compras-ninos">Contacto</h3>
+ <div class="social-compras-ninos">
+ <a href="../pages/Nosotros-contacto.html"><img class="img" src="../img/log/facebook.png" alt="Facebook"></a>
+ <a href="../pages/Nosotros-contacto.html"><img class="img" src="../img/log/gorjeo.png" alt="Twitter"></a>
+ <a href="../pages/Nosotros-contacto.html"><img class="img" src="../img/log/whatsapp.png" alt="Whatsapp"></a>
+ <a href="../pages/Nosotros-contacto.html"><img class="img"src="../img/log/instagram.png" alt="instagram"></a>
+ </div>
+ </div>
+ <div class="mapa-compras-ninos">
+ <iframe
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7726547423067!2d-58.42453158511353!3d-34.58461866399412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5815a6271b3%3A0xfddd1bf87f08cb0d!2sGurruchaga%202300%2C%20C1425FEH%20CABA!5e0!3m2!1ses!2sar!4v1681225844195!5m2!1ses!2sar"
+ width="250"
+ height="150"
+ style="border: 0"
+ allowfullscreen=""
+ loading="lazy"
+ referrerpolicy="no-referrer-when-downgrade"
+ ></iframe>
+ </div>
+ <h4 class="h4-footer-compras-ninos">Cristopher Lucky</h4>
+ <div class="contenedor-datos-compras-ninos">
+ <p class="datos-compras-ninos">Telefono: 11-64543522</p>
+ <p class="datos-mail-compras-ninos">Mail: Cristopher-contacto@cristopher.com</p>
+ <p class="domicilio-compras-ninos">Direccion: Gurruchaga 2300</p>
+ </div>
+ </footer>
+ </div>
+ <script src="../main.js"></script>
+ </body>
 </html>

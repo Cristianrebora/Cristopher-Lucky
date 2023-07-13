@@ -41,14 +41,46 @@
   </head>
 
   <body class="body">
-    <p class="carritoText">Tu compra</p>
+    <a href="../index.html"><h1 class="h1-nuevoscarrito">Cristopher Lucky</h1></a>
+
+<svg viewBox="0 0 1320 300">
+
+  <!-- Symbol -->
+  <symbol id="s-text">
+    <text text-anchor="middle"
+          x="50%" y="25%" dy=".5em">
+      TU COMPRA
+    </text>
+  </symbol>  
+
+  <!-- Duplicate symbols -->
+  <use xlink:href="#s-text" class="text"
+       ></use>
+  <use xlink:href="#s-text" class="text"
+       ></use>
+  <use xlink:href="#s-text" class="text"
+       ></use>
+  <use xlink:href="#s-text" class="text"
+       ></use>
+  <use xlink:href="#s-text" class="text"
+       ></use>
+
+</svg>
+
+
 
     <p class="carritoList" id="demo"></p>
 
     <script>
-      document.getElementById("demo").innerHTML = sessionStorage.getItem(
-        "NIKE & CRISTOPHER LUCKY"
-      );
+   
+      
+        
+        document.getElementById("demo").innerHTML = JSON.parse(
+          sessionStorage.getItem("compras")
+        );
+        
+      
+      
     </script>
   </body>
 </html>
