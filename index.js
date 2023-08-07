@@ -1,53 +1,86 @@
+ function showLoginPopup() {
+  const loginPopup = document.getElementById("loginPopup");
+  loginPopup.style.display = "block";
+ }
 
-/**
- * Popup para logearse
- */
+//  Función para ocultar el pop-up de inicio de sesión
+ function hideLoginPopup() {
+   const loginPopup = document.getElementById("loginPopup");
+   loginPopup.style.display = "none";
+ }
 
-function mostrarPopup() {
-    var overlay = document.createElement('div');
-    overlay.classList.add('overlay');
+//  Función para mostrar el pop-up de crear cuenta
+ function showCreateAccountPopup() {
+   const createAccountPopup = document.getElementById("createAccountPopup");
+   createAccountPopup.style.display = "block";
+ }
 
-    var popup = document.createElement('div');
-    popup.classList.add('popup');
+ // Función para ocultar el pop-up de crear cuenta
+ function hideCreateAccountPopup() {
+  const createAccountPopup = document.getElementById("createAccountPopup");
+   createAccountPopup.style.display = "none";
+ }
+ function openPopup() {
+   document.getElementById("popup").style.display = "block";
+ }
 
-    var usernameLabel = document.createElement('label');
-    usernameLabel.textContent = "Nombre de usuario: ";
-    var usernameInput = document.createElement('input');
-    usernameInput.type = 'text';
+ // Función para el inicio de sesión
+function login(event) {
+   event.preventDefault(); // Evitar que el formulario se envíe automáticamente
 
-    var passwordLabel = document.createElement('label');
-    passwordLabel.textContent = "Contraseña: ";
-    var passwordInput = document.createElement('input');
-    passwordInput.type = 'password';
+   // Obtener los valores de los campos de entrada
+  let username = document.getElementById("username").value;
+ let password = document.getElementById("password").value;
 
-    var submitButton = document.createElement('button');
-    submitButton.textContent = "Iniciar sesión";
-    submitButton.addEventListener('click', function() {
-      var username = usernameInput.value;
-      var password = passwordInput.value;
+   // Validar los datos de inicio de sesión 
+   if (username === "usuario" && password === "contraseña") {
+     alert ("Inicio de sesión exitoso");
+    hideLoginPopup();
+   
+  } else {
+    alert ("Nombre de usuario o contraseña incorrectos");
+    // Mostrar un mensaje de error 
+   }
+ }
+ function closePopup() {
+   document.getElementById("Popup").style.display = "none";
+ }
 
-    
-      if (username === "" && password === "") {
-        alert("Inicio de sesión exitoso");
-      } else {
-        alert("Credenciales inválidas"); 
-      }
+ // Asignar la función al botón de inicio de sesión
+var loginBtn = document.getElementById("loginBtn");
+ loginBtn.addEventListener("click", showLoginPopup);
 
-      overlay.remove();
-    });
+// Asignar la función al botón de crear cuenta
+var createAccountBtn = document.getElementById("createAccountBtn");
+ createAccountBtn.addEventListener("click", showCreateAccountPopup);
 
-    popup.appendChild(usernameLabel);
-    popup.appendChild(usernameInput);
-    popup.appendChild(document.createElement('br'));
-    popup.appendChild(passwordLabel);
-    popup.appendChild(passwordInput);
-    popup.appendChild(document.createElement('br'));
-    popup.appendChild(submitButton);
+ function closePopup() {
+  document.getElementByclass("close").style.display = "none";
+ }
+ const users = {};
+ function createAccountBtn() {
+  const username = prompt("Ingrese un nombre de usuario:");
+   const password = prompt("Ingrese una contraseña:");
 
-    overlay.appendChild(popup);
+   if (username && password) {
+     if (users[usuario]) {
+    alert("El nombre de usuario ya existe. Por favor, elija otro.");
+    } else {
+      users[usuarioNuevo] = { password: contraseñaNueva };
+       alert("Cuenta creada exitosamente");
+     }
+   } else {
+     alert("Debe proporcionar un nombre de usuario y una contraseña válida.");
+   }
+ }
 
-    document.body.appendChild(overlay);
-  }
+ var loginBtn = document.getElementById("loginBtn");
+ loginBtn.addEventListener("click", showLoginPopup);
 
+// Asignar la función de inicio de sesión al formulario dentro del pop-up de inicio de sesión
+ var loginForm = document.querySelector("#loginPopup form");
+ loginForm.addEventListener("submit", login);
+  function closePopup() {
+  document.getElementByclass("close").style.display = "none";
+ }
  
-  

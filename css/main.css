@@ -13,35 +13,6 @@ a {
   align-self: center;
 }
 
-
-
-
-.carritoFoto {
-  height: 60px;
-  width: 60px;
-}
-.carritodiv {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 18%;
-  margin-left: 90%;
-  display: grid;
-  grid-template-columns: repeat(2,2fr);
-grid-template-rows: 70px;
-}
-
-
-.carritoList {
-  color: #b8860b;
-  margin-left: 10%;
-  margin-top: 5%;
-  font-size: 50px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  display: grid;
-grid-template-columns: repeat(2,2fr);
-grid-template-rows: 70px;}
-  
-
 body {
   background-image: url(../img/portada-zapatillas/foto-port.jpg);
   background-position: center center;
@@ -2411,6 +2382,10 @@ body {
     transform: rotateY(180deg);
     transform-style: preserve-3d;
     width: 100%;
+  }
+  .botoninicio {
+    width: 30px;
+    display: flex;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
